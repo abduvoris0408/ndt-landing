@@ -1,0 +1,354 @@
+{
+  "seo": {
+    "siteName": "Next Developers Team",
+    "home": {
+      "title": "Next Developers Team — Web & Mobile App Development",
+      "description": "Next Developers Team builds websites, mobile apps, AI bots, and premium UI/UX design using Next.js and 3D interactive technology."
+    },
+    "services": {
+      "title": "Services — Web, Mobile, AI Bots & UI/UX Design",
+      "description": "Web platforms, mobile apps, automated AI bots, and premium UI/UX design. Digital solutions for your business built on modern technology."
+    },
+    "portfolio": {
+      "title": "Portfolio — Delivered Projects",
+      "description": "Explore the Next Developers Team portfolio: E-Commerce, FinTech, AI Automation, and corporate projects we've delivered."
+    },
+    "about": {
+      "title": "About Us",
+      "description": "Next Developers Team is a team of developers, designers, and strategists focused on digitalizing your business. Learn about our values and approach."
+    },
+    "blog": {
+      "title": "Blog — Technology and Design Articles",
+      "description": "Expert articles on Next.js, web design trends, and building MVPs for startups."
+    }
+  },
+  "nav": {
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "process": "Process",
+    "about": "About Us",
+    "blog": "Blog",
+    "contact": "Contact"
+  },
+  "hero": {
+    "badge": "Next Developers Team_",
+    "titleLine1": "We Build The",
+    "titleLine2": "Digital Future",
+    "description": "Abandon simple templates. We create 3D and interactive digital solutions that amaze your clients and increase your revenue.",
+    "ctaPrimary": "Start a Project",
+    "ctaSecondary": "View Portfolio",
+    "stat1Value": "50+",
+    "stat1Label": "Projects Delivered",
+    "stat2Value": "30+",
+    "stat2Label": "Happy Clients",
+    "stat3Value": "5+",
+    "stat3Label": "Years of Experience",
+    "terminalBadge": "Results Driven_",
+    "terminalTitle": "The Numbers Speak For Themselves",
+    "terminalDescription": "Every project starts with a clear goal and a measurable outcome. Our efficiency shows in these exact numbers."
+  },
+  "services": {
+    "badge": "Our Expertise_",
+    "titleLine1": "Your Weapon In",
+    "titleLine2": "The Digital World",
+    "description": "Abandon simple templates. We create 3D and interactive solutions that amaze your clients and increase your revenue.",
+    "hero": {
+      "badge": "Core.Architecture_",
+      "titleLine1": "Every Project Is",
+      "titleLine2": "A Work of Art",
+      "description": "We don't just write code. We build a fast, adaptable digital ecosystem with the strongest foundation for your business.",
+      "cta": "Choose Tariffs",
+      "stat1Value": "100+",
+      "stat1Label": "Successful Systems",
+      "stat2Value": "24/7",
+      "stat2Label": "Technical Support"
+    },
+    "items": {
+      "web": {
+        "tag": "SYS.WEB",
+        "title": "Web Platforms",
+        "description": "From landing pages and corporate sites to complex CRM systems. Fast and 3D animated solutions using the latest technologies.",
+        "details": "Details"
+      },
+      "mobile": {
+        "tag": "SYS.MOBILE",
+        "title": "Mobile Apps",
+        "description": "Fast and interactive mobile applications with a user-friendly interface for iOS and Android.",
+        "details": "Details"
+      },
+      "bot": {
+        "tag": "SYS.BOT",
+        "title": "Auto.Bot",
+        "description": "Smart AI bots for accepting payments and automating sales."
+      },
+      "uiux": {
+        "tag": "VISUAL.ENGINE",
+        "title": "Premium UI/UX",
+        "description": "We design interfaces that users will love, aligned with design trends (Glassmorphism, 3D HUD)."
+      }
+    }
+  },
+  "portfolio": {
+    "badge": "Portfolio_",
+    "title": "Project",
+    "titleAccent": "Registry",
+    "description": "Every project is a separate work of art and a technological achievement. See for yourself how we bring revenue and reputation to your business.",
+    "viewProject": "View Project",
+    "backToPortfolio": "Back to Portfolio",
+    "challengeLabel": "// Challenge",
+    "solutionLabel": "// Solution",
+    "stackLabel": "// Tech Stack",
+    "resultsLabel": "// Results",
+    "ctaTitle": "Need a similar project?",
+    "ctaButton": "Discuss a Project",
+    "filters": {
+      "all": "All",
+      "fintech": "FinTech",
+      "ecommerce": "E-Commerce",
+      "ai": "AI / Automation",
+      "mobile": "Mobile",
+      "corporate": "Corporate"
+    },
+    "items": {
+      "p1": {
+        "category": "ecommerce",
+        "tag": "E-Commerce",
+        "index": "SYS-001",
+        "status": "Deployed",
+        "title": "E-Commerce Core",
+        "description": "Modern and fast e-commerce architecture designed for high-volume sales with integrated payment systems.",
+        "stack": ["Next.js", "Tailwind", "Stripe API"],
+        "challenge": "The client's legacy platform slowed down under high traffic, causing a high cart abandonment rate.",
+        "solution": "Rebuilt the architecture from the ground up on Next.js with server-side rendering and Stripe payment integration.",
+        "results": [
+          { "value": "2.3x", "label": "Page load speed" },
+          { "value": "-40%", "label": "Cart abandonment" },
+          { "value": "99.9%", "label": "Server uptime" }
+        ]
+      },
+      "p2": {
+        "category": "fintech",
+        "tag": "iOS / Android",
+        "index": "SYS-002",
+        "status": "Active",
+        "title": "FinTech Mobile",
+        "description": "A premium HUD app that allows users to control their expenses and make secure money transfers.",
+        "stack": ["React Native", "Node.js", "PostgreSQL"],
+        "challenge": "Needed to deliver an intuitive, fast user experience while maintaining bank-grade security.",
+        "solution": "Built a cross-platform app on React Native with encrypted transactions and real-time expense analysis.",
+        "results": [
+          { "value": "50K+", "label": "Active users" },
+          { "value": "4.8★", "label": "App Store rating" },
+          { "value": "0", "label": "Security incidents" }
+        ]
+      },
+      "p3": {
+        "category": "ai",
+        "tag": "AI / Automation",
+        "index": "SYS-003",
+        "status": "Scaling",
+        "title": "Sales Auto.Bot",
+        "description": "A smart sales bot that talks with customers, takes orders, and automates payments.",
+        "stack": ["Python", "OpenAI", "Telegram API"],
+        "challenge": "The customer support team was manually handling hundreds of repetitive requests every day.",
+        "solution": "Launched an OpenAI-powered Telegram bot with order intake and payment automation features.",
+        "results": [
+          { "value": "80%", "label": "Automated requests" },
+          { "value": "24/7", "label": "Continuous service" },
+          { "value": "3x", "label": "Sales conversion" }
+        ]
+      },
+      "p4": {
+        "category": "mobile",
+        "tag": "iOS / Android",
+        "index": "SYS-004",
+        "status": "Active",
+        "title": "FitTrack Mobile",
+        "description": "A fitness app that tracks workouts and nutrition with personalized recommendations.",
+        "stack": ["React Native", "Expo", "Firebase"],
+        "challenge": "Existing fitness apps gave generic advice that didn't adapt to a user's personal results.",
+        "solution": "Built on Firebase Realtime Database with a personalized recommendation algorithm.",
+        "results": [
+          { "value": "15K+", "label": "Downloads" },
+          { "value": "65%", "label": "Daily active usage" },
+          { "value": "4.7★", "label": "User rating" }
+        ]
+      },
+      "p5": {
+        "category": "corporate",
+        "tag": "Corporate",
+        "index": "SYS-005",
+        "status": "Stable",
+        "title": "Corporate Suite",
+        "description": "A high-load corporate portal combining employee management, reporting, and internal communication in one system.",
+        "stack": ["Next.js", "PostgreSQL", "Docker"],
+        "challenge": "The company operated across several disconnected systems (spreadsheets, email, legacy software).",
+        "solution": "A single corporate portal on PostgreSQL in Docker containers unified all workflows.",
+        "results": [
+          { "value": "500+", "label": "Active employees" },
+          { "value": "-60%", "label": "Manual work" },
+          { "value": "99.95%", "label": "System stability" }
+        ]
+      }
+    }
+  },
+  "process": {
+    "badge": "System Resources_",
+    "titleLine1": "Architecture of",
+    "titleLine2": "Excellence",
+    "description": "Core tools that ensure the successful operation of the project and the sequence of their practical application (Protocol).",
+    "steps": {
+      "s1": {
+        "phase": "// DISCOVERY_PHASE",
+        "title": "Idea.Init",
+        "description": "Business analysis, target audience research, and technical specification (TS) development."
+      },
+      "s2": {
+        "phase": "// UI_UX_PROTOTYPING",
+        "title": "Visual.Engine",
+        "description": "Building sales-driven, Cyberpunk, 3D, and Glassmorphism style interface designs."
+      },
+      "s3": {
+        "phase": "// DEVELOPMENT",
+        "title": "System.Build",
+        "description": "Secure and high-speed programming and animating of the approved design using Next.js v15."
+      },
+      "s4": {
+        "phase": "// DEPLOYMENT",
+        "title": "Launch.Execute",
+        "description": "QA testing of systems, server upload (Deploy), and 24/7 technical support."
+      }
+    }
+  },
+  "about": {
+    "badge": "About Us_",
+    "titleLine1": "Next Developers Team",
+    "titleLine2": "Who We Are",
+    "description": "We are a team of developers, designers, and strategists passionate about digitalizing your business. We approach every project as both a technological achievement and a work of art.",
+    "values": {
+      "v1": {
+        "title": "Quality First",
+        "description": "Every line of code and every pixel is carefully crafted."
+      },
+      "v2": {
+        "title": "Modern Technology",
+        "description": "Fast and stable products built with Next.js, TypeScript and a modern stack."
+      },
+      "v3": {
+        "title": "Transparent Collaboration",
+        "description": "We stay in constant contact with you at every stage of the project."
+      }
+    }
+  },
+  "cta": {
+    "title": "Ready To Launch Your Project?",
+    "description": "Let's turn your idea into digital reality together.",
+    "button": "Get In Touch"
+  },
+  "blog": {
+    "badge": "Blog_",
+    "title": "Our",
+    "titleAccent": "Articles",
+    "description": "We share practical knowledge and experience on technology, design, and digitalizing your business.",
+    "readMore": "Read More",
+    "backToBlog": "Back to Blog",
+    "readTime": "min read",
+    "relatedTitle": "More Articles",
+    "categories": {
+      "Engineering": "Engineering",
+      "Strategy": "Strategy",
+      "Design": "Design"
+    },
+    "posts": {
+      "why-nextjs": {
+        "title": "Why We Choose Next.js For Every Project",
+        "excerpt": "Server-side rendering, SEO benefits, and development speed — why Next.js became our default choice.",
+        "content": [
+          "Every time we start a new project, the first question is choosing the technology stack. Over the past three years, our answer has almost always been the same: Next.js.",
+          "The first reason is performance. Next.js's server-side rendering (SSR) and static generation (SSG) capabilities prepare pages on the server rather than in the client's browser. This significantly improves first-load speed and user experience.",
+          "The second reason is SEO. Google and other search engines prefer fully rendered HTML. Unlike client-side-only React apps, Next.js pages are served to search engines already rendered.",
+          "The third reason is development speed. File-based routing, built-in API routes, and image optimization let us focus on business logic instead of infrastructure.",
+          "Of course, not every project needs the same solution. But for web platforms, corporate sites, and SaaS products, Next.js remains our reliable choice."
+        ]
+      },
+      "mvp-for-startups": {
+        "title": "How to Build an MVP for a Startup: A Practical Guide",
+        "excerpt": "Core principles for building an MVP to reach the market quickly with limited budget and time.",
+        "content": [
+          "Many startups try to make their first product fully featured and spend months, sometimes years, on it. This is one of the biggest mistakes.",
+          "A Minimal Viable Product (MVP) is the smallest version of a product that solves the customer's core problem without extra features. The goal is to test the idea with real users as quickly as possible.",
+          "In our experience, a successful MVP usually has three stages: first, clearly defining the core user problem; second, building the smallest feature set that solves it; third, iterating quickly based on real user feedback.",
+          "Technically, choosing a stack that enables rapid development matters for an MVP. Tools like Next.js, Supabase, or Firebase significantly cut the time spent building backend infrastructure.",
+          "Most importantly, an MVP doesn't need to be perfect. It's only meant to validate whether your idea is right, quickly and cheaply."
+        ]
+      },
+      "web-design-trends-2026": {
+        "title": "Web Design Trends to Expect in 2026",
+        "excerpt": "Glassmorphism, 3D elements, and AI-powered personalized interfaces — design directions for the coming year.",
+        "content": [
+          "Web design changes faster every year, and 2026 is no exception. Here are the key trends we're seeing while designing for our clients.",
+          "The first trend is the continued evolution of Glassmorphism. Transparent, blurred background effects are now used for more than decoration — they help visually clarify interface hierarchy.",
+          "The second trend is the growing popularity of 3D and interactive elements. Thanks to tools like Framer Motion and Three.js, adding complex 3D animations has become affordable and fast even for smaller projects.",
+          "The third trend is AI-powered personalization. Sites are starting to adapt content and interface in real time based on user behavior.",
+          "Finally, speed and minimalism remain the most important factor. No matter how beautiful a site is, a slow load loses the user. That's why we always aim to balance visual appeal with technical efficiency."
+        ]
+      }
+    }
+  },
+  "faq": {
+    "badge": "FAQ_",
+    "title": "Frequently Asked",
+    "titleAccent": "Questions",
+    "description": "Find answers to the key questions you should know before starting your project.",
+    "items": [
+      {
+        "question": "How long does a project take to complete?",
+        "answer": "A simple landing page takes 1-2 weeks, while a complex web platform or mobile app takes 4-8 weeks. The exact timeline is set once the technical specification (TS) is ready."
+      },
+      {
+        "question": "How is the project price determined?",
+        "answer": "Price depends on project complexity, functionality, and timeline. We provide a free consultation and an exact quote for every project."
+      },
+      {
+        "question": "Is there technical support after the project is done?",
+        "answer": "Yes, every project includes 24/7 technical support and free bug fixes for an agreed period."
+      },
+      {
+        "question": "What technologies do you use?",
+        "answer": "We mainly use Next.js, React, TypeScript, Tailwind CSS, and Node.js. Depending on project requirements, we also use Python, PostgreSQL, and other modern technologies."
+      },
+      {
+        "question": "Can you upgrade my existing website?",
+        "answer": "Absolutely. We'll analyze your current project and prepare a proposal for migrating to modern technology or extending its functionality."
+      },
+      {
+        "question": "How does payment work?",
+        "answer": "Projects are usually split into 2-3 stages, with payment made at the completion of each stage. Upfront payment terms are agreed at the start of the project."
+      }
+    ]
+  },
+  "chat": {
+    "cta": "Chat with us"
+  },
+  "notFound": {
+    "badge": "404_",
+    "title": "Page Not Found",
+    "description": "The page you're looking for doesn't exist or has been moved.",
+    "cta": "Back to Home"
+  },
+  "footer": {
+    "description": "We create 3D and interactive digital solutions that amaze your clients and increase your revenue.",
+    "navTitle": "Navigation",
+    "contactTitle": "Contact",
+    "rights": "All rights reserved."
+  },
+  "contact": {
+    "badge": "Contact_",
+    "title": "Let's Talk",
+    "description": "Tell us about your project — we'll get back to you within 24 hours.",
+    "formName": "Your Name",
+    "formEmail": "Email",
+    "formMessage": "Message",
+    "formSubmit": "Send Message"
+  }
+}

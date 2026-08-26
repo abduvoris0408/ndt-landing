@@ -1,0 +1,354 @@
+{
+  "seo": {
+    "siteName": "Next Developers Team",
+    "home": {
+      "title": "Next Developers Team — Veb-sayt va Mobil Ilova Yaratish",
+      "description": "Next Developers Team — Next.js, 3D va interaktiv texnologiyalar asosida veb-saytlar, mobil ilovalar, AI botlar va premium UI/UX dizayn yaratuvchi dasturlash kompaniyasi."
+    },
+    "services": {
+      "title": "Xizmatlar — Veb, Mobil, AI Bot va UI/UX Dizayn",
+      "description": "Veb-platformalar, mobil ilovalar, avtomatlashtirilgan AI botlar va premium UI/UX dizayn xizmatlari. Zamonaviy texnologiyalar asosida biznesingiz uchun raqamli yechimlar."
+    },
+    "portfolio": {
+      "title": "Portfolio — Bajarilgan Loyihalar",
+      "description": "Next Developers Team tomonidan yaratilgan E-Commerce, FinTech, AI Automation va Corporate loyihalar portfoliosi bilan tanishing."
+    },
+    "about": {
+      "title": "Biz Haqimizda",
+      "description": "Next Developers Team — biznesingizni raqamlashtirishga ixtisoslashgan dasturchilar, dizaynerlar va strateglar jamoasi. Bizning qadriyatlarimiz va ish uslubimiz bilan tanishing."
+    },
+    "blog": {
+      "title": "Blog — Texnologiya va Dizayn Maqolalari",
+      "description": "Next.js, veb-dizayn trendlari va startaplar uchun MVP qurish haqida ekspert maqolalar."
+    }
+  },
+  "nav": {
+    "services": "Xizmatlar",
+    "portfolio": "Portfolio",
+    "process": "Jarayon",
+    "about": "Biz haqimizda",
+    "blog": "Blog",
+    "contact": "Bog'lanish"
+  },
+  "hero": {
+    "badge": "Next Developers Team_",
+    "titleLine1": "Raqamli Kelajakni",
+    "titleLine2": "Biz Quramiz",
+    "description": "Oddiy shablonlardan voz keching. Biz mijozlaringizni hayratda qoldiradigan va daromadingizni oshiradigan 3D va interaktiv raqamli yechimlar yaratamiz.",
+    "ctaPrimary": "Loyiha boshlash",
+    "ctaSecondary": "Portfolioni ko'rish",
+    "stat1Value": "50+",
+    "stat1Label": "Bajarilgan loyihalar",
+    "stat2Value": "30+",
+    "stat2Label": "Mamnun mijozlar",
+    "stat3Value": "5+",
+    "stat3Label": "Yillik tajriba",
+    "terminalBadge": "Natijalarga Asoslangan_",
+    "terminalTitle": "Raqamlar O'zi Gapiradi",
+    "terminalDescription": "Har bir loyiha aniq maqsad va o'lchanadigan natija bilan boshlanadi. Bizning ish samaradorligimiz mana shu ko'rsatkichlarda ko'rinadi."
+  },
+  "services": {
+    "badge": "Bizning Yo'nalishlarimiz_",
+    "titleLine1": "Raqamli Dunyodagi",
+    "titleLine2": "Sizning Qurolingiz",
+    "description": "Oddiy shablonlardan voz keching. Biz mijozlaringizni hayratda qoldiradigan va daromadingizni oshiradigan 3D va interaktiv yechimlar yaratamiz.",
+    "hero": {
+      "badge": "Core.Architecture_",
+      "titleLine1": "Har Bir Loyiha",
+      "titleLine2": "San'at Asari",
+      "description": "Biz shunchaki kod yozmaymiz. Biznesingiz uchun eng mustahkam poydevorga ega tezkor va moslashuvchan raqamli ekotizim quramiz.",
+      "cta": "Tariflarni Tanlash",
+      "stat1Value": "100+",
+      "stat1Label": "Muvaffaqiyatli Tizimlar",
+      "stat2Value": "24/7",
+      "stat2Label": "Texnik Yordam"
+    },
+    "items": {
+      "web": {
+        "tag": "SYS.WEB",
+        "title": "Veb Platformalar",
+        "description": "Landing sahifalardan tortib murakkab CRM tizimlarigacha. Zamonaviy texnologiyalar yordamida tez va 3D animatsiyali yechimlar.",
+        "details": "Batafsil"
+      },
+      "mobile": {
+        "tag": "SYS.MOBILE",
+        "title": "Mobil Ilovalar",
+        "description": "iOS va Android uchun qulay interfeysli, tez va interaktiv mobil ilovalar.",
+        "details": "Batafsil"
+      },
+      "bot": {
+        "tag": "SYS.BOT",
+        "title": "Auto.Bot",
+        "description": "To'lovlarni qabul qilish va savdoni avtomatlashtirish uchun aqlli AI botlar."
+      },
+      "uiux": {
+        "tag": "VISUAL.ENGINE",
+        "title": "Premium UI/UX",
+        "description": "Dizayn trendlariga mos (Glassmorphism, 3D HUD) foydalanuvchilar sevib qoladigan interfeyslarni yaratamiz."
+      }
+    }
+  },
+  "portfolio": {
+    "badge": "Portfolio_",
+    "title": "Loyihalar",
+    "titleAccent": "Reyestri",
+    "description": "Har bir loyiha — alohida san'at asari va texnologik yutuq. Biznesingizga qanday daromad va obro' keltirishimizni o'zingiz ko'ring.",
+    "viewProject": "Loyihani ko'rish",
+    "backToPortfolio": "Portfolioga qaytish",
+    "challengeLabel": "// Muammo",
+    "solutionLabel": "// Yechim",
+    "stackLabel": "// Texnologiyalar",
+    "resultsLabel": "// Natijalar",
+    "ctaTitle": "Shunga o'xshash loyiha kerakmi?",
+    "ctaButton": "Loyiha muhokama qilish",
+    "filters": {
+      "all": "Barchasi",
+      "fintech": "FinTech",
+      "ecommerce": "E-Commerce",
+      "ai": "AI / Automation",
+      "mobile": "Mobil",
+      "corporate": "Corporate"
+    },
+    "items": {
+      "p1": {
+        "category": "ecommerce",
+        "tag": "E-Commerce",
+        "index": "SYS-001",
+        "status": "Deployed",
+        "title": "E-Commerce Core",
+        "description": "Yuqori hajmdagi savdo uchun mo'ljallangan, to'lov tizimlari integratsiya qilingan zamonaviy va tezkor onlayn-do'kon arxitekturasi.",
+        "stack": ["Next.js", "Tailwind", "Stripe API"],
+        "challenge": "Mijozning eski platformasi yuqori trafikda sekinlashib, savatchani tashlab ketish darajasi yuqori edi.",
+        "solution": "Next.js asosida server-side rendering va Stripe to'lov tizimi integratsiyasi bilan to'liq qayta qurilgan arxitektura yaratildi.",
+        "results": [
+          { "value": "2.3x", "label": "Sahifa yuklanish tezligi" },
+          { "value": "-40%", "label": "Savatni tashlab ketish" },
+          { "value": "99.9%", "label": "Server ishlash vaqti" }
+        ]
+      },
+      "p2": {
+        "category": "fintech",
+        "tag": "iOS / Android",
+        "index": "SYS-002",
+        "status": "Active",
+        "title": "FinTech Mobile",
+        "description": "Foydalanuvchilarga xarajatlarini nazorat qilish va xavfsiz pul o'tkazmalari qilish imkonini beruvchi premium HUD ilovasi.",
+        "stack": ["React Native", "Node.js", "PostgreSQL"],
+        "challenge": "Bank darajasidagi xavfsizlikni saqlagan holda intuitiv va tezkor foydalanuvchi tajribasi yaratish kerak edi.",
+        "solution": "React Native asosida cross-platform ilova, shifrlangan tranzaksiyalar va real-vaqt xarajat tahlili bilan yaratildi.",
+        "results": [
+          { "value": "50K+", "label": "Faol foydalanuvchilar" },
+          { "value": "4.8★", "label": "App Store reytingi" },
+          { "value": "0", "label": "Xavfsizlik insidentlari" }
+        ]
+      },
+      "p3": {
+        "category": "ai",
+        "tag": "AI / Automation",
+        "index": "SYS-003",
+        "status": "Scaling",
+        "title": "Sales Auto.Bot",
+        "description": "Mijozlar bilan muloqot qilib, buyurtmalarni qabul qiladigan va to'lovlarni avtomatlashtiradigan aqlli savdo boti.",
+        "stack": ["Python", "OpenAI", "Telegram API"],
+        "challenge": "Mijoz qo'llab-quvvatlash jamoasi kunlik yuzlab takroriy so'rovlarni qo'lda qayta ishlashga majbur edi.",
+        "solution": "OpenAI asosida ishlaydigan Telegram bot, buyurtma qabul qilish va to'lovni avtomatlashtirish funksiyalari bilan ishga tushirildi.",
+        "results": [
+          { "value": "80%", "label": "Avtomatlashtirilgan so'rovlar" },
+          { "value": "24/7", "label": "Uzluksiz xizmat" },
+          { "value": "3x", "label": "Sotuv konversiyasi" }
+        ]
+      },
+      "p4": {
+        "category": "mobile",
+        "tag": "iOS / Android",
+        "index": "SYS-004",
+        "status": "Active",
+        "title": "FitTrack Mobile",
+        "description": "Foydalanuvchi mashqlari va ovqatlanishini kuzatuvchi, shaxsiylashtirilgan tavsiyalar beruvchi fitnes ilovasi.",
+        "stack": ["React Native", "Expo", "Firebase"],
+        "challenge": "Mavjud fitnes ilovalari umumiy tavsiyalar berardi, foydalanuvchi shaxsiy natijalariga moslashmasdi.",
+        "solution": "Firebase real-vaqt ma'lumotlar bazasi va shaxsiylashtirilgan tavsiya algoritmi asosida ilova yaratildi.",
+        "results": [
+          { "value": "15K+", "label": "Yuklab olishlar" },
+          { "value": "65%", "label": "Kunlik faol foydalanish" },
+          { "value": "4.7★", "label": "Foydalanuvchi reytingi" }
+        ]
+      },
+      "p5": {
+        "category": "corporate",
+        "tag": "Corporate",
+        "index": "SYS-005",
+        "status": "Stable",
+        "title": "Corporate Suite",
+        "description": "Yuqori yuklamali korporativ portal: xodimlar boshqaruvi, hisobotlar va ichki kommunikatsiya bir tizimda.",
+        "stack": ["Next.js", "PostgreSQL", "Docker"],
+        "challenge": "Kompaniya bir nechta uzilib qolgan tizimlar (Excel, elektron pochta, eski dastur) orasida ishlardi.",
+        "solution": "Docker konteynerlashtirilgan, PostgreSQL asosida yagona korporativ portal barcha jarayonlarni birlashtirdi.",
+        "results": [
+          { "value": "500+", "label": "Faol xodimlar" },
+          { "value": "-60%", "label": "Qo'lda bajariladigan ish" },
+          { "value": "99.95%", "label": "Tizim barqarorligi" }
+        ]
+      }
+    }
+  },
+  "process": {
+    "badge": "Tizim Resurslari_",
+    "titleLine1": "Mukammallik",
+    "titleLine2": "Arxitekturasi",
+    "description": "Loyihaning muvaffaqiyatli ishlashini ta'minlaydigan asosiy vositalar va ularning amaliy qo'llanilish ketma-ketligi (Protokol).",
+    "steps": {
+      "s1": {
+        "phase": "// DISCOVERY_PHASE",
+        "title": "Idea.Init",
+        "description": "Biznes tahlili, maqsadli auditoriyani o'rganish va texnik topshiriq (TZ) ishlab chiqish."
+      },
+      "s2": {
+        "phase": "// UI_UX_PROTOTYPING",
+        "title": "Visual.Engine",
+        "description": "Sotuvga yo'naltirilgan, Cyberpunk, 3D va Glassmorphism uslubidagi interfeys dizaynini yaratish."
+      },
+      "s3": {
+        "phase": "// DEVELOPMENT",
+        "title": "System.Build",
+        "description": "Tasdiqlangan dizaynni Next.js v15 yordamida xavfsiz va tezkor dasturlash hamda animatsiya qilish."
+      },
+      "s4": {
+        "phase": "// DEPLOYMENT",
+        "title": "Launch.Execute",
+        "description": "Tizimlarni QA testdan o'tkazish, serverga joylash (Deploy) va 24/7 texnik yordam ko'rsatish."
+      }
+    }
+  },
+  "about": {
+    "badge": "Biz Haqimizda_",
+    "titleLine1": "Next Developers Team",
+    "titleLine2": "Kim Biz?",
+    "description": "Biz — biznesingizni raqamlashtirishga ishtiyoqli dasturchilar, dizaynerlar va strateglar jamoasimiz. Har bir loyihaga texnologik yutuq va san'at asari sifatida yondashamiz.",
+    "values": {
+      "v1": {
+        "title": "Sifat birinchi o'rinda",
+        "description": "Har bir qatordagi kod va har bir piksel puxta o'ylab ishlab chiqiladi."
+      },
+      "v2": {
+        "title": "Zamonaviy texnologiyalar",
+        "description": "Next.js, TypeScript va zamonaviy stack yordamida tez va barqaror mahsulotlar."
+      },
+      "v3": {
+        "title": "Shaffof hamkorlik",
+        "description": "Loyihaning har bir bosqichida siz bilan doimiy aloqada bo'lamiz."
+      }
+    }
+  },
+  "cta": {
+    "title": "Loyihangizni Ishga Tushirishga Tayyormisiz?",
+    "description": "Keling, birga g'oyangizni raqamli haqiqatga aylantiramiz.",
+    "button": "Biz bilan bog'laning"
+  },
+  "blog": {
+    "badge": "Blog_",
+    "title": "Bizning",
+    "titleAccent": "Maqolalarimiz",
+    "description": "Texnologiya, dizayn va biznesni raqamlashtirish haqida amaliy bilim va tajribalarimiz bilan bo'lishamiz.",
+    "readMore": "O'qish",
+    "backToBlog": "Blogga qaytish",
+    "readTime": "daqiqa o'qish",
+    "relatedTitle": "Boshqa Maqolalar",
+    "categories": {
+      "Engineering": "Muhandislik",
+      "Strategy": "Strategiya",
+      "Design": "Dizayn"
+    },
+    "posts": {
+      "why-nextjs": {
+        "title": "Nega Biz Har Bir Loyihada Next.js Tanlaymiz",
+        "excerpt": "Server-side rendering, SEO afzalliklari va rivojlanish tezligi — Next.js nima uchun bizning standart tanlovimizga aylandi.",
+        "content": [
+          "Har safar yangi loyiha boshlaganimizda, birinchi savol texnologik stekni tanlash bo'ladi. So'nggi uch yilda bu savolga javobimiz deyarli har doim bir xil: Next.js.",
+          "Birinchi sabab — ishlash tezligi. Next.js'ning server-side rendering (SSR) va statik generatsiya (SSG) imkoniyatlari sahifalarni mijoz brauzerida emas, serverda tayyorlab yuboradi. Bu birinchi yuklanish tezligini sezilarli oshiradi va foydalanuvchi tajribasini yaxshilaydi.",
+          "Ikkinchi sabab — SEO. Google va boshqa qidiruv tizimlari to'liq render qilingan HTML'ni afzal ko'radi. Faqat client-side render qiluvchi React ilovalaridan farqli o'laroq, Next.js sahifalari qidiruv tizimlari uchun tayyor holda taqdim etiladi.",
+          "Uchinchi sabab — rivojlanish tezligi. File-based routing, o'rnatilgan API route'lar va image optimization kabi vositalar bizga infratuzilma bilan emas, biznes logikasi bilan shug'ullanish imkonini beradi.",
+          "Albatta, har bir loyiha uchun bir xil yechim to'g'ri kelavermaydi. Ammo veb-platformalar, korporativ saytlar va SaaS mahsulotlar uchun Next.js bizning ishonchli tanlovimiz bo'lib qolmoqda."
+        ]
+      },
+      "mvp-for-startups": {
+        "title": "Startap Uchun MVP Qanday Quriladi: Amaliy Qo'llanma",
+        "excerpt": "Cheklangan byudjet va vaqt bilan bozorga tez chiqish uchun MVP qurishning asosiy tamoyillari.",
+        "content": [
+          "Ko'plab startaplar birinchi mahsulotini to'liq funksional qilib qurishga harakat qiladi va oylab, ba'zan yillab vaqt sarflaydi. Bu — eng katta xatolardan biri.",
+          "Minimal Viable Product (MVP) — bu mijozning asosiy muammosini hal qiladigan, lekin ortiqcha funksiyalarsiz eng kichik mahsulot versiyasi. Maqsad — g'oyani real foydalanuvchilar bilan tezroq sinab ko'rish.",
+          "Bizning tajribamizda, muvaffaqiyatli MVP odatda 3 ta bosqichdan iborat: birinchi — asosiy foydalanuvchi muammosini aniq belgilash, ikkinchi — shu muammoni hal qiladigan eng kichik funksiya to'plamini yaratish, uchinchi — real foydalanuvchi fikr-mulohazasi asosida tezkor iteratsiya qilish.",
+          "Texnologik jihatdan, MVP uchun tezkor ishlab chiqarishga imkon beradigan stack tanlash muhim. Next.js, Supabase yoki Firebase kabi vositalar backend infratuzilmasini qurishga sarflanadigan vaqtni sezilarli qisqartiradi.",
+          "Eng muhimi — MVP mukammal bo'lishi shart emas. U faqat g'oyangizning to'g'ri yoki noto'g'riligini tez va arzon narxda tekshirish uchun mo'ljallangan."
+        ]
+      },
+      "web-design-trends-2026": {
+        "title": "2026-yilda Veb-dizaynda Kutilayotgan Trendlar",
+        "excerpt": "Glassmorphism, 3D elementlar va AI-yordamida shaxsiylashtirilgan interfeyslar — kelayotgan yil dizayn yo'nalishlari.",
+        "content": [
+          "Veb-dizayn har yili tezroq o'zgarmoqda, va 2026-yil ham bundan mustasno emas. Biz mijozlarimiz uchun loyihalashda kuzatgan asosiy tendensiyalarni ko'rib chiqamiz.",
+          "Birinchi trend — Glassmorphism uslubining yanada rivojlanishi. Shaffof, xiralashgan fon effektlari endi shunchaki bezakdan chuqurroq — ular interfeys ierarxiyasini vizual jihatdan aniqroq ko'rsatish uchun qo'llanilmoqda.",
+          "Ikkinchi trend — 3D va interaktiv elementlarning ommalashuvi. Framer Motion va Three.js kabi vositalar tufayli, hatto kichik loyihalarda ham murakkab 3D animatsiyalarni qo'shish arzon va tez bo'lib qoldi.",
+          "Uchinchi trend — AI-yordamida shaxsiylashtirish. Saytlar endi foydalanuvchi xatti-harakatiga qarab kontent va interfeysni real vaqtda moslashtira boshlaydi.",
+          "Va nihoyat, tezlik va minimalizm hamon eng muhim omil bo'lib qolmoqda. Qanchalik chiroyli bo'lmasin, sekin yuklanadigan sayt foydalanuvchini yo'qotadi. Shu sababli biz har doim vizual jozibadorlik bilan texnik samaradorlik o'rtasida muvozanat saqlashga harakat qilamiz."
+        ]
+      }
+    }
+  },
+  "faq": {
+    "badge": "Savol-Javob_",
+    "title": "Tez-tez",
+    "titleAccent": "So'raladigan Savollar",
+    "description": "Loyihangizni boshlashdan oldin bilishingiz kerak bo'lgan asosiy savollar javobini toping.",
+    "items": [
+      {
+        "question": "Loyiha necha vaqtda tayyor bo'ladi?",
+        "answer": "Oddiy landing sahifa 1-2 haftada, murakkab veb-platforma yoki mobil ilova 4-8 haftada tayyor bo'ladi. Aniq muddat texnik topshiriq (TZ) tayyor bo'lgach belgilanadi."
+      },
+      {
+        "question": "Loyiha narxi qanday belgilanadi?",
+        "answer": "Narx loyiha murakkabligi, funksionalligi va muddatiga qarab belgilanadi. Har bir loyiha uchun bepul konsultatsiya va aniq narx taklifi beramiz."
+      },
+      {
+        "question": "Loyihadan keyin texnik yordam bormi?",
+        "answer": "Ha, barcha loyihalarga 24/7 texnik yordam va kelishilgan muddat davomida bepul xatoliklarni tuzatish xizmati kiritilgan."
+      },
+      {
+        "question": "Qanday texnologiyalardan foydalanasiz?",
+        "answer": "Asosan Next.js, React, TypeScript, Tailwind CSS va Node.js dan foydalanamiz. Loyiha talabiga qarab Python, PostgreSQL va boshqa zamonaviy texnologiyalarni ham qo'llaymiz."
+      },
+      {
+        "question": "Mavjud saytimni yangilashingiz mumkinmi?",
+        "answer": "Albatta. Mavjud loyihangizni tahlil qilib, uni zamonaviy texnologiyalarga o'tkazish yoki funksionalligini kengaytirish bo'yicha taklif tayyorlaymiz."
+      },
+      {
+        "question": "To'lov qanday amalga oshiriladi?",
+        "answer": "Odatda loyiha 2-3 bosqichga bo'linadi va har bir bosqich yakunida to'lov amalga oshiriladi. Loyiha boshida oldindan to'lov shartlari kelishiladi."
+      }
+    ]
+  },
+  "chat": {
+    "cta": "Bog'lanish"
+  },
+  "notFound": {
+    "badge": "404_",
+    "title": "Sahifa Topilmadi",
+    "description": "Siz izlayotgan sahifa mavjud emas yoki boshqa manzilga ko'chirilgan.",
+    "cta": "Bosh Sahifaga Qaytish"
+  },
+  "footer": {
+    "description": "Biz mijozlarimizni hayratda qoldiradigan va daromadini oshiradigan 3D va interaktiv raqamli yechimlar yaratamiz.",
+    "navTitle": "Navigatsiya",
+    "contactTitle": "Aloqa",
+    "rights": "Barcha huquqlar himoyalangan."
+  },
+  "contact": {
+    "badge": "Bog'lanish_",
+    "title": "Keling, Suhbatlashamiz",
+    "description": "Loyihangiz haqida gapirib bering — 24 soat ichida siz bilan bog'lanamiz.",
+    "formName": "Ismingiz",
+    "formEmail": "Email",
+    "formMessage": "Xabar",
+    "formSubmit": "Yuborish"
+  }
+}
