@@ -3,7 +3,6 @@ import { Golos_Text, JetBrains_Mono } from "next/font/google";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
-import NextTopLoader from "nextjs-toploader";
 import { routing } from "@/i18n/routing";
 import { SITE_URL } from "@/lib/site";
 import ThemeProvider from "@/components/ThemeProvider";
@@ -102,7 +101,6 @@ export default async function LocaleLayout({
       </head>
       <body className="min-h-full flex flex-col bg-background text-foreground">
         <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
-          <NextTopLoader color="var(--accent)" showSpinner={false} height={2} />
           <NextIntlClientProvider>
             {children}
             <ChatWidget />
