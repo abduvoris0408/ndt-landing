@@ -5,6 +5,7 @@ import { motion } from "framer-motion";
 import { ArrowRight, ChevronRight, Calendar, Clock } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { BLOG_SLUGS, BLOG_META } from "@/lib/blog";
+import { formatDate } from "@/lib/formatDate";
 import BlogIllustration from "./BlogIllustration";
 
 const GRADIENTS = [
@@ -30,8 +31,6 @@ export default function Blog({ standalone = false }: { standalone?: boolean }) {
     title: t(`posts.${slug}.title`),
     excerpt: t(`posts.${slug}.excerpt`),
   }));
-
-  const dateFormatter = new Intl.DateTimeFormat(locale, { day: "numeric", month: "long", year: "numeric" });
 
   return (
     <section className="relative py-24 sm:py-32">
@@ -90,7 +89,7 @@ export default function Blog({ standalone = false }: { standalone?: boolean }) {
                 <div className="flex flex-1 flex-col p-6 sm:p-7">
                   <div className="flex items-center gap-4 font-mono text-[11px] text-muted">
                     <span className="flex items-center gap-1.5">
-                      <Calendar size={12} /> {dateFormatter.format(new Date(post.date))}
+                      <Calendar size={12} /> {formatDate(post.date, locale)}
                     </span>
                     <span className="flex items-center gap-1.5">
                       <Clock size={12} /> {post.readTime} {t("readTime")}

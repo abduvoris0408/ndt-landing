@@ -5,6 +5,7 @@ import { getLocale } from "next-intl/server";
 import { ArrowLeft, ArrowRight, Calendar, Clock } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { BLOG_SLUGS, BLOG_META, isBlogSlug } from "@/lib/blog";
+import { formatDate } from "@/lib/formatDate";
 import { SITE_URL } from "@/lib/site";
 import Navbar from "@/components/Navbar";
 import Footer from "@/components/Footer";
@@ -65,12 +66,6 @@ export default async function BlogPostPage({
   const meta = BLOG_META[slug];
   const paragraphs = t.raw(`posts.${slug}.content`) as string[];
 
-  const dateFormatter = new Intl.DateTimeFormat(locale, {
-    day: "numeric",
-    month: "long",
-    year: "numeric",
-  });
-
   const otherSlugs = BLOG_SLUGS.filter((s) => s !== slug).slice(0, 2);
 
   return (
@@ -91,7 +86,7 @@ export default async function BlogPostPage({
                 {t(`categories.${meta.category}`)}
               </span>
               <span className="flex items-center gap-1.5">
-                <Calendar size={13} /> {dateFormatter.format(new Date(meta.date))}
+                <Calendar size={13} /> {formatDate(meta.date, locale)}
               </span>
               <span className="flex items-center gap-1.5">
                 <Clock size={13} /> {meta.readTime} {t("readTime")}
