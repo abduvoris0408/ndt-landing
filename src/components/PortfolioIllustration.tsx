@@ -1,38 +1,6 @@
 export default function PortfolioIllustration({ category }: { category: string }) {
   const stroke = "currentColor";
 
-  if (category === "ecommerce") {
-    return (
-      <svg viewBox="0 0 200 120" className="h-full w-full" fill="none">
-        <circle cx="80" cy="90" r="6" fill={stroke} />
-        <circle cx="130" cy="90" r="6" fill={stroke} />
-        <path
-          d="M55 40h12l14 50h55l16-38H85"
-          stroke={stroke}
-          strokeWidth="4"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-      </svg>
-    );
-  }
-
-  if (category === "fintech") {
-    return (
-      <svg viewBox="0 0 200 120" className="h-full w-full" fill="none">
-        <polyline
-          points="40,90 75,60 100,75 130,40 165,55"
-          stroke={stroke}
-          strokeWidth="4"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-        />
-        <circle cx="165" cy="55" r="6" fill={stroke} />
-        <rect x="35" y="95" width="130" height="3" rx="1.5" fill={stroke} fillOpacity="0.4" />
-      </svg>
-    );
-  }
-
   if (category === "ai") {
     return (
       <svg viewBox="0 0 200 120" className="h-full w-full" fill="none">
@@ -46,14 +14,42 @@ export default function PortfolioIllustration({ category }: { category: string }
     );
   }
 
-  if (category === "mobile") {
+  if (category === "education") {
     return (
       <svg viewBox="0 0 200 120" className="h-full w-full" fill="none">
-        <rect x="78" y="20" width="44" height="80" rx="8" stroke={stroke} strokeWidth="4" />
-        <line x1="90" y1="90" x2="110" y2="90" stroke={stroke} strokeWidth="3" strokeLinecap="round" />
-        <circle cx="55" cy="60" r="5" fill={stroke} fillOpacity="0.6" />
-        <circle cx="145" cy="45" r="5" fill={stroke} fillOpacity="0.6" />
-        <circle cx="145" cy="80" r="5" fill={stroke} fillOpacity="0.6" />
+        <path
+          d="M100 35 L165 55 L100 75 L35 55 Z"
+          stroke={stroke}
+          strokeWidth="4"
+          strokeLinejoin="round"
+        />
+        <path d="M65 62v20c0 8 16 14 35 14s35-6 35-14V62" stroke={stroke} strokeWidth="3.5" />
+        <line x1="165" y1="55" x2="165" y2="85" stroke={stroke} strokeWidth="3.5" strokeLinecap="round" />
+        <circle cx="165" cy="90" r="4" fill={stroke} />
+      </svg>
+    );
+  }
+
+  if (category === "marketplace") {
+    return (
+      <svg viewBox="0 0 200 120" className="h-full w-full" fill="none">
+        <circle cx="55" cy="55" r="18" stroke={stroke} strokeWidth="4" />
+        <circle cx="145" cy="55" r="18" stroke={stroke} strokeWidth="4" />
+        <path
+          d="M73 55h54"
+          stroke={stroke}
+          strokeWidth="4"
+          strokeLinecap="round"
+        />
+        <path
+          d="M85 45l-10 10 10 10M115 45l10 10-10 10"
+          stroke={stroke}
+          strokeWidth="3.5"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+        />
+        <rect x="40" y="85" width="30" height="10" rx="3" fill={stroke} fillOpacity="0.5" />
+        <rect x="130" y="85" width="30" height="10" rx="3" fill={stroke} fillOpacity="0.5" />
       </svg>
     );
   }

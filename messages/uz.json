@@ -103,49 +103,64 @@
     "ctaButton": "Loyiha muhokama qilish",
     "filters": {
       "all": "Barchasi",
-      "fintech": "FinTech",
-      "ecommerce": "E-Commerce",
+      "education": "Ta'lim",
+      "marketplace": "Marketplace",
       "ai": "AI / Automation",
-      "mobile": "Mobil",
       "corporate": "Corporate"
     },
     "items": {
       "p1": {
-        "category": "ecommerce",
-        "tag": "E-Commerce",
+        "category": "education",
+        "tag": "EdTech",
         "index": "SYS-001",
-        "status": "Deployed",
-        "title": "E-Commerce Core",
-        "description": "Yuqori hajmdagi savdo uchun mo'ljallangan, to'lov tizimlari integratsiya qilingan zamonaviy va tezkor onlayn-do'kon arxitekturasi.",
-        "stack": ["Next.js", "Tailwind", "Stripe API"],
-        "challenge": "Mijozning eski platformasi yuqori trafikda sekinlashib, savatchani tashlab ketish darajasi yuqori edi.",
-        "solution": "Next.js asosida server-side rendering va Stripe to'lov tizimi integratsiyasi bilan to'liq qayta qurilgan arxitektura yaratildi.",
+        "status": "Active",
+        "title": "Intalim",
+        "description": "Avtomaktablar uchun zamonaviy ta'lim boshqaruv tizimi: Face ID orqali davomat nazorati, onlayn testlar va elektron hisobotlar bir platformada.",
+        "stack": ["Next.js", "Face Recognition", "PostgreSQL"],
+        "challenge": "Avtomaktablar davomatni qog'ozda yuritar, o'quvchilar test topshirish uchun alohida vosita topa olmas va hisobotlar qo'lda tayyorlanardi.",
+        "solution": "Face ID biometrik davomat, 1250+ rasmiy test savoli bilan onlayn testlash va avtomatlashtirilgan hisobot tizimini bitta platformaga birlashtirdik.",
         "results": [
-          { "value": "2.3x", "label": "Sahifa yuklanish tezligi" },
-          { "value": "-40%", "label": "Savatni tashlab ketish" },
-          { "value": "99.9%", "label": "Server ishlash vaqti" }
+          { "value": "0.3s", "label": "Yuz tanish tezligi" },
+          { "value": "99.9%", "label": "Aniqlik darajasi" },
+          { "value": "1250+", "label": "Rasmiy test savollari" }
         ]
       },
       "p2": {
-        "category": "fintech",
-        "tag": "iOS / Android",
+        "category": "education",
+        "tag": "EdTech / Web",
         "index": "SYS-002",
         "status": "Active",
-        "title": "FinTech Mobile",
-        "description": "Foydalanuvchilarga xarajatlarini nazorat qilish va xavfsiz pul o'tkazmalari qilish imkonini beruvchi premium HUD ilovasi.",
-        "stack": ["React Native", "Node.js", "PostgreSQL"],
-        "challenge": "Bank darajasidagi xavfsizlikni saqlagan holda intuitiv va tezkor foydalanuvchi tajribasi yaratish kerak edi.",
-        "solution": "React Native asosida cross-platform ilova, shifrlangan tranzaksiyalar va real-vaqt xarajat tahlili bilan yaratildi.",
+        "title": "EAvtoTalim",
+        "description": "Intalim ekotizimining veb-versiyasi — o'quvchilar va instruktorlar uchun brauzer orqali ochiladigan onlayn ta'lim va test platformasi.",
+        "stack": ["Next.js", "React", "REST API"],
+        "challenge": "Mobil ilovadan tashqari, kompyuterdan ham qulay foydalanadigan veb-interfeys zarur edi.",
+        "solution": "Intalim'ning asosiy funksiyalarini (testlar, video darslar, hisobotlar) veb-brauzerga moslashtirilgan tezkor interfeys orqali taqdim etdik.",
         "results": [
-          { "value": "50K+", "label": "Faol foydalanuvchilar" },
-          { "value": "4.8★", "label": "App Store reytingi" },
-          { "value": "0", "label": "Xavfsizlik insidentlari" }
+          { "value": "100%", "label": "Intalim bilan sinxronlashuv" },
+          { "value": "24/7", "label": "Onlayn mavjudlik" },
+          { "value": "Multi", "label": "Qurilmalararo qo'llab-quvvatlash" }
         ]
       },
       "p3": {
+        "category": "marketplace",
+        "tag": "Marketplace",
+        "index": "SYS-003",
+        "status": "Active",
+        "title": "Ustalar",
+        "description": "Ustalar va mijozlarni bog'laydigan keng qamrovli marketplace platformasi — ustalar ish topadi, mijozlar buyurtma joylashtiradi.",
+        "stack": ["Next.js", "Node.js", "PostgreSQL"],
+        "challenge": "Xizmat ko'rsatuvchi ustalar mijoz topishda qiynalar, mijozlar esa ishonchli ustani topish uchun aniq bir manzil topa olmasdi.",
+        "solution": "Ustalar profil yaratib xizmatlarini ko'rsatadigan, mijozlar esa buyurtma joylashtirib mos ustani tanlaydigan ikki tomonlama platforma qurdik.",
+        "results": [
+          { "value": "2-tomonlama", "label": "Usta va mijoz bog'lanishi" },
+          { "value": "Keng qamrovli", "label": "Xizmat kategoriyalari" },
+          { "value": "Real-vaqt", "label": "Buyurtma boshqaruvi" }
+        ]
+      },
+      "p4": {
         "category": "ai",
         "tag": "AI / Automation",
-        "index": "SYS-003",
+        "index": "SYS-004",
         "status": "Scaling",
         "title": "Sales Auto.Bot",
         "description": "Mijozlar bilan muloqot qilib, buyurtmalarni qabul qiladigan va to'lovlarni avtomatlashtiradigan aqlli savdo boti.",
@@ -156,22 +171,6 @@
           { "value": "80%", "label": "Avtomatlashtirilgan so'rovlar" },
           { "value": "24/7", "label": "Uzluksiz xizmat" },
           { "value": "3x", "label": "Sotuv konversiyasi" }
-        ]
-      },
-      "p4": {
-        "category": "mobile",
-        "tag": "iOS / Android",
-        "index": "SYS-004",
-        "status": "Active",
-        "title": "FitTrack Mobile",
-        "description": "Foydalanuvchi mashqlari va ovqatlanishini kuzatuvchi, shaxsiylashtirilgan tavsiyalar beruvchi fitnes ilovasi.",
-        "stack": ["React Native", "Expo", "Firebase"],
-        "challenge": "Mavjud fitnes ilovalari umumiy tavsiyalar berardi, foydalanuvchi shaxsiy natijalariga moslashmasdi.",
-        "solution": "Firebase real-vaqt ma'lumotlar bazasi va shaxsiylashtirilgan tavsiya algoritmi asosida ilova yaratildi.",
-        "results": [
-          { "value": "15K+", "label": "Yuklab olishlar" },
-          { "value": "65%", "label": "Kunlik faol foydalanish" },
-          { "value": "4.7★", "label": "Foydalanuvchi reytingi" }
         ]
       },
       "p5": {

@@ -8,7 +8,7 @@ import { Link } from "@/i18n/navigation";
 import { PROJECT_KEYS } from "@/lib/projects";
 import PortfolioIllustration from "./PortfolioIllustration";
 
-const FILTER_KEYS = ["all", "ecommerce", "fintech", "ai", "mobile", "corporate"] as const;
+const FILTER_KEYS = ["all", "education", "marketplace", "ai", "corporate"] as const;
 
 const STATUS_COLORS: Record<string, string> = {
   Deployed: "#4fd1ff",
@@ -18,22 +18,19 @@ const STATUS_COLORS: Record<string, string> = {
 };
 
 const CATEGORY_GRADIENTS: Record<string, string> = {
-  ecommerce:
+  education:
     "from-[#e4defc] via-[#d7cffb] to-[#c9bef8] dark:from-[#3a2f6b] dark:via-[#241c3f] dark:to-[#0f0c1a]",
-  fintech:
+  marketplace:
     "from-[#d3ecf7] via-[#bfe3f3] to-[#a9d8ee] dark:from-[#0d2b3e] dark:via-[#0b2130] dark:to-[#0a0f14]",
   ai: "from-[#ecdff5] via-[#e2cdf0] to-[#d6b9ea] dark:from-[#2f1e3f] dark:via-[#1c1330] dark:to-[#0c0a14]",
-  mobile:
-    "from-[#d8e6f7] via-[#c5daf2] to-[#b0cbec] dark:from-[#1a2f4a] dark:via-[#122036] dark:to-[#0a0f14]",
   corporate:
     "from-[#f1e4d3] via-[#ecd8bd] to-[#e5c9a3] dark:from-[#3a2a1e] dark:via-[#241a12] dark:to-[#0f0c0a]",
 };
 
 const ICON_COLOR: Record<string, string> = {
-  ecommerce: "text-[#4a3d8f] dark:text-white/90",
-  fintech: "text-[#0d6e94] dark:text-white/90",
+  education: "text-[#4a3d8f] dark:text-white/90",
+  marketplace: "text-[#0d6e94] dark:text-white/90",
   ai: "text-[#6b2e8f] dark:text-white/90",
-  mobile: "text-[#1c4a80] dark:text-white/90",
   corporate: "text-[#7a4f24] dark:text-white/90",
 };
 
@@ -158,11 +155,11 @@ function ProjectCard({ p, i, large }: { p: Project; i: number; large?: boolean }
     >
       <div
         className={`relative flex h-28 items-center justify-center bg-gradient-to-br p-6 ${
-          CATEGORY_GRADIENTS[p.category] ?? CATEGORY_GRADIENTS.ecommerce
+          CATEGORY_GRADIENTS[p.category] ?? CATEGORY_GRADIENTS.education
         }`}
       >
         <div
-          className={`h-full w-28 opacity-80 ${ICON_COLOR[p.category] ?? ICON_COLOR.ecommerce}`}
+          className={`h-full w-28 opacity-80 ${ICON_COLOR[p.category] ?? ICON_COLOR.education}`}
         >
           <PortfolioIllustration category={p.category} />
         </div>

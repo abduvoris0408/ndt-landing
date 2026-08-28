@@ -103,49 +103,64 @@
     "ctaButton": "Discuss a Project",
     "filters": {
       "all": "All",
-      "fintech": "FinTech",
-      "ecommerce": "E-Commerce",
+      "education": "Education",
+      "marketplace": "Marketplace",
       "ai": "AI / Automation",
-      "mobile": "Mobile",
       "corporate": "Corporate"
     },
     "items": {
       "p1": {
-        "category": "ecommerce",
-        "tag": "E-Commerce",
+        "category": "education",
+        "tag": "EdTech",
         "index": "SYS-001",
-        "status": "Deployed",
-        "title": "E-Commerce Core",
-        "description": "Modern and fast e-commerce architecture designed for high-volume sales with integrated payment systems.",
-        "stack": ["Next.js", "Tailwind", "Stripe API"],
-        "challenge": "The client's legacy platform slowed down under high traffic, causing a high cart abandonment rate.",
-        "solution": "Rebuilt the architecture from the ground up on Next.js with server-side rendering and Stripe payment integration.",
+        "status": "Active",
+        "title": "Intalim",
+        "description": "A modern education management system for driving schools: Face ID attendance tracking, online testing, and electronic reporting in one platform.",
+        "stack": ["Next.js", "Face Recognition", "PostgreSQL"],
+        "challenge": "Driving schools tracked attendance on paper, students had no dedicated way to prepare for exams, and reports were compiled manually.",
+        "solution": "We combined biometric Face ID attendance, online testing with 1,250+ official exam questions, and automated reporting into a single platform.",
         "results": [
-          { "value": "2.3x", "label": "Page load speed" },
-          { "value": "-40%", "label": "Cart abandonment" },
-          { "value": "99.9%", "label": "Server uptime" }
+          { "value": "0.3s", "label": "Face recognition speed" },
+          { "value": "99.9%", "label": "Recognition accuracy" },
+          { "value": "1,250+", "label": "Official test questions" }
         ]
       },
       "p2": {
-        "category": "fintech",
-        "tag": "iOS / Android",
+        "category": "education",
+        "tag": "EdTech / Web",
         "index": "SYS-002",
         "status": "Active",
-        "title": "FinTech Mobile",
-        "description": "A premium HUD app that allows users to control their expenses and make secure money transfers.",
-        "stack": ["React Native", "Node.js", "PostgreSQL"],
-        "challenge": "Needed to deliver an intuitive, fast user experience while maintaining bank-grade security.",
-        "solution": "Built a cross-platform app on React Native with encrypted transactions and real-time expense analysis.",
+        "title": "EAvtoTalim",
+        "description": "The web version of the Intalim ecosystem — a browser-based online learning and testing platform for students and instructors.",
+        "stack": ["Next.js", "React", "REST API"],
+        "challenge": "Beyond the mobile app, schools needed a convenient desktop-friendly web interface.",
+        "solution": "We adapted Intalim's core features (testing, video lessons, reporting) into a fast, browser-based interface.",
         "results": [
-          { "value": "50K+", "label": "Active users" },
-          { "value": "4.8★", "label": "App Store rating" },
-          { "value": "0", "label": "Security incidents" }
+          { "value": "100%", "label": "Synced with Intalim" },
+          { "value": "24/7", "label": "Online availability" },
+          { "value": "Multi", "label": "Cross-device support" }
         ]
       },
       "p3": {
+        "category": "marketplace",
+        "tag": "Marketplace",
+        "index": "SYS-003",
+        "status": "Active",
+        "title": "Ustalar",
+        "description": "A broad marketplace connecting skilled workers with customers — professionals find jobs, customers post orders.",
+        "stack": ["Next.js", "Node.js", "PostgreSQL"],
+        "challenge": "Service professionals struggled to find customers, while customers had no reliable place to find trusted workers.",
+        "solution": "We built a two-sided platform where professionals create profiles and list services, and customers post orders to find the right match.",
+        "results": [
+          { "value": "Two-sided", "label": "Worker & customer matching" },
+          { "value": "Broad", "label": "Service categories" },
+          { "value": "Real-time", "label": "Order management" }
+        ]
+      },
+      "p4": {
         "category": "ai",
         "tag": "AI / Automation",
-        "index": "SYS-003",
+        "index": "SYS-004",
         "status": "Scaling",
         "title": "Sales Auto.Bot",
         "description": "A smart sales bot that talks with customers, takes orders, and automates payments.",
@@ -156,22 +171,6 @@
           { "value": "80%", "label": "Automated requests" },
           { "value": "24/7", "label": "Continuous service" },
           { "value": "3x", "label": "Sales conversion" }
-        ]
-      },
-      "p4": {
-        "category": "mobile",
-        "tag": "iOS / Android",
-        "index": "SYS-004",
-        "status": "Active",
-        "title": "FitTrack Mobile",
-        "description": "A fitness app that tracks workouts and nutrition with personalized recommendations.",
-        "stack": ["React Native", "Expo", "Firebase"],
-        "challenge": "Existing fitness apps gave generic advice that didn't adapt to a user's personal results.",
-        "solution": "Built on Firebase Realtime Database with a personalized recommendation algorithm.",
-        "results": [
-          { "value": "15K+", "label": "Downloads" },
-          { "value": "65%", "label": "Daily active usage" },
-          { "value": "4.7★", "label": "User rating" }
         ]
       },
       "p5": {
