@@ -1,8 +1,6 @@
 import type { Metadata } from "next";
 import { getTranslations } from "next-intl/server";
 import { SITE_URL } from "@/lib/site";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import Blog from "@/components/Blog";
 import ContactCta from "@/components/ContactCta";
 
@@ -24,13 +22,9 @@ export async function generateMetadata({
 
 export default function BlogPage() {
   return (
-    <>
-      <Navbar />
-      <main className="flex-1 pt-16">
-        <Blog standalone />
-        <ContactCta />
-      </main>
-      <Footer />
-    </>
+    <main className="flex-1 pt-16">
+      <Blog standalone />
+      <ContactCta />
+    </main>
   );
 }

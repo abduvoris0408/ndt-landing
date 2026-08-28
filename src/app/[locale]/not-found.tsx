@@ -1,16 +1,12 @@
 import { getTranslations } from "next-intl/server";
 import { ArrowLeft } from "lucide-react";
 import { Link } from "@/i18n/navigation";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
 export default async function NotFound() {
   const t = await getTranslations("notFound");
 
   return (
-    <>
-      <Navbar />
-      <main className="flex flex-1 items-center justify-center py-24">
+    <main className="flex flex-1 items-center justify-center py-24">
         <div className="container-app text-center">
           <div className="glass mx-auto mb-6 flex w-fit items-center gap-2 rounded-full px-4 py-1.5">
             <span className="h-1.5 w-1.5 rounded-full bg-accent-2" />
@@ -34,8 +30,6 @@ export default async function NotFound() {
             {t("cta")}
           </Link>
         </div>
-      </main>
-      <Footer />
-    </>
+    </main>
   );
 }

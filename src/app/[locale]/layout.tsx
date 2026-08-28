@@ -6,6 +6,8 @@ import { routing } from "@/i18n/routing";
 import { SITE_URL } from "@/lib/site";
 import ThemeProvider from "@/components/ThemeProvider";
 import ChatWidget from "@/components/ChatWidget";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 import "../globals.css";
 
 export function generateStaticParams() {
@@ -83,7 +85,9 @@ export default async function LocaleLayout({
       />
       <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
         <NextIntlClientProvider>
+          <Navbar />
           {children}
+          <Footer />
           <ChatWidget />
         </NextIntlClientProvider>
       </ThemeProvider>

@@ -5,8 +5,6 @@ import { ArrowLeft, ArrowRight, Terminal } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { PROJECT_KEYS, isProjectKey } from "@/lib/projects";
 import { SITE_URL } from "@/lib/site";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 
 export function generateStaticParams() {
   return PROJECT_KEYS.map((slug) => ({ slug }));
@@ -48,9 +46,7 @@ export default async function ProjectDetailPage({
   const results = t.raw(`items.${slug}.results`) as { value: string; label: string }[];
 
   return (
-    <>
-      <Navbar />
-      <main className="flex-1 pt-16">
+    <main className="flex-1 pt-16">
         <section className="relative py-20 sm:py-28">
           <div className="container-app">
             <Link
@@ -129,8 +125,6 @@ export default async function ProjectDetailPage({
             </div>
           </div>
         </section>
-      </main>
-      <Footer />
-    </>
+    </main>
   );
 }

@@ -7,8 +7,6 @@ import { Link } from "@/i18n/navigation";
 import { BLOG_SLUGS, BLOG_META, isBlogSlug } from "@/lib/blog";
 import { formatDate } from "@/lib/formatDate";
 import { SITE_URL } from "@/lib/site";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
 import BlogIllustration from "@/components/BlogIllustration";
 
 const GRADIENTS: Record<string, string> = {
@@ -69,9 +67,7 @@ export default async function BlogPostPage({
   const otherSlugs = BLOG_SLUGS.filter((s) => s !== slug).slice(0, 2);
 
   return (
-    <>
-      <Navbar />
-      <main className="flex-1 pt-16">
+    <main className="flex-1 pt-16">
         <article className="relative py-20 sm:py-28">
           <div className="container-app max-w-3xl">
             <Link
@@ -135,8 +131,6 @@ export default async function BlogPostPage({
             )}
           </div>
         </article>
-      </main>
-      <Footer />
-    </>
+    </main>
   );
 }
