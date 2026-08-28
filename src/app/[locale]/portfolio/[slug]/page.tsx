@@ -1,9 +1,10 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 import { ArrowLeft, ArrowRight, Terminal } from "lucide-react";
 import { Link } from "@/i18n/navigation";
-import { PROJECT_KEYS, isProjectKey } from "@/lib/projects";
+import { PROJECT_KEYS, PROJECT_IMAGES, isProjectKey } from "@/lib/projects";
 import { SITE_URL } from "@/lib/site";
 
 export function generateStaticParams() {
@@ -71,6 +72,19 @@ export default async function ProjectDetailPage({
             <p className="mt-5 max-w-2xl text-sm text-muted sm:text-base">
               {t(`items.${slug}.description`)}
             </p>
+
+            {PROJECT_IMAGES[slug] && (
+              <div className="glass relative mt-10 h-64 w-full overflow-hidden rounded-2xl sm:h-[420px]">
+                <Image
+                  src={PROJECT_IMAGES[slug]!}
+                  alt={t(`items.${slug}.title`)}
+                  fill
+                  className="object-cover object-top"
+                  sizes="(max-width: 768px) 100vw, 768px"
+                  priority
+                />
+              </div>
+            )}
 
             <div className="mt-14 grid grid-cols-1 gap-5 lg:grid-cols-2">
               <div className="glass rounded-2xl p-7 sm:p-8">

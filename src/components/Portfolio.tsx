@@ -1,11 +1,12 @@
 "use client";
 
 import { useState } from "react";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { motion, AnimatePresence } from "framer-motion";
 import { ArrowRight, ArrowUpRight, ChevronRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
-import { PROJECT_KEYS } from "@/lib/projects";
+import { PROJECT_KEYS, PROJECT_IMAGES } from "@/lib/projects";
 import PortfolioIllustration from "./PortfolioIllustration";
 
 const FILTER_KEYS = ["all", "education", "marketplace", "ai", "corporate"] as const;
@@ -35,7 +36,7 @@ const ICON_COLOR: Record<string, string> = {
 };
 
 type Project = {
-  key: string;
+  key: (typeof PROJECT_KEYS)[number];
   category: string;
   tag: string;
   index: string;
@@ -154,15 +155,25 @@ function ProjectCard({ p, i, large }: { p: Project; i: number; large?: boolean }
       }`}
     >
       <div
-        className={`relative flex h-28 items-center justify-center bg-gradient-to-br p-6 ${
-          CATEGORY_GRADIENTS[p.category] ?? CATEGORY_GRADIENTS.education
-        }`}
+        className={`relative flex items-center justify-center overflow-hidden bg-gradient-to-br ${
+          PROJECT_IMAGES[p.key] ? "h-40" : "h-28 p-6"
+        } ${CATEGORY_GRADIENTS[p.category] ?? CATEGORY_GRADIENTS.education}`}
       >
-        <div
-          className={`h-full w-28 opacity-80 ${ICON_COLOR[p.category] ?? ICON_COLOR.education}`}
-        >
-          <PortfolioIllustration category={p.category} />
-        </div>
+        {PROJECT_IMAGES[p.key] ? (
+          <Image
+            src={PROJECT_IMAGES[p.key]!}
+            alt={p.title}
+            fill
+            className="object-cover object-top"
+            sizes="(max-width: 768px) 100vw, 33vw"
+          />
+        ) : (
+          <div
+            className={`h-full w-28 opacity-80 ${ICON_COLOR[p.category] ?? ICON_COLOR.education}`}
+          >
+            <PortfolioIllustration category={p.category} />
+          </div>
+        )}
         <div className="absolute left-4 top-4 flex items-center gap-2 font-mono text-[11px] text-black/60 dark:text-white/70">
           <span className="flex h-7 w-7 items-center justify-center rounded-lg bg-white/40 backdrop-blur-sm dark:bg-black/30">
             <ArrowUpRight size={12} />
