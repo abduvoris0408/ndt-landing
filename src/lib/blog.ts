@@ -1,8 +1,7 @@
 export const BLOG_SLUGS = [
-  "why-nextjs",
-  "mvp-for-startups",
-  "web-design-trends-2026",
   "face-id-attendance-case-study",
+  "eavtotalim-case-study",
+  "ustalar-marketplace-case-study",
 ] as const;
 export type BlogSlug = (typeof BLOG_SLUGS)[number];
 
@@ -11,8 +10,7 @@ export function isBlogSlug(value: string): value is BlogSlug {
 }
 
 export const BLOG_META: Record<BlogSlug, { date: string; readTime: string; category: string }> = {
-  "why-nextjs": { date: "2026-06-12", readTime: "6", category: "Engineering" },
-  "mvp-for-startups": { date: "2026-07-03", readTime: "8", category: "Strategy" },
-  "web-design-trends-2026": { date: "2026-08-01", readTime: "5", category: "Design" },
   "face-id-attendance-case-study": { date: "2026-08-20", readTime: "7", category: "Case Study" },
+  "eavtotalim-case-study": { date: "2026-08-24", readTime: "6", category: "Case Study" },
+  "ustalar-marketplace-case-study": { date: "2026-08-27", readTime: "7", category: "Case Study" },
 };

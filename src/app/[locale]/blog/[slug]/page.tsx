@@ -12,24 +12,23 @@ import BlogIllustration from "@/components/BlogIllustration";
 
 const POST_IMAGES: Partial<Record<BlogSlug, string>> = {
   "face-id-attendance-case-study": "/portfolio/eavtotalim.png",
+  "eavtotalim-case-study": "/portfolio/intalim.png",
+  "ustalar-marketplace-case-study": "/portfolio/ustalar.jpg",
 };
 
 const GRADIENTS: Record<string, string> = {
-  "why-nextjs":
-    "from-[#e4defc] via-[#d7cffb] to-[#c9bef8] dark:from-[#3a2f6b] dark:via-[#241c3f] dark:to-[#0f0c1a]",
-  "mvp-for-startups":
-    "from-[#d3ecf7] via-[#bfe3f3] to-[#a9d8ee] dark:from-[#0d2b3e] dark:via-[#0b2130] dark:to-[#0a0f14]",
-  "web-design-trends-2026":
-    "from-[#ecdff5] via-[#e2cdf0] to-[#d6b9ea] dark:from-[#2f1e3f] dark:via-[#1c1330] dark:to-[#0c0a14]",
   "face-id-attendance-case-study":
     "from-[#d7f5e3] via-[#c3eed6] to-[#a9e3c3] dark:from-[#0f2e1e] dark:via-[#0b2317] dark:to-[#0a140f]",
+  "eavtotalim-case-study":
+    "from-[#e4defc] via-[#d7cffb] to-[#c9bef8] dark:from-[#3a2f6b] dark:via-[#241c3f] dark:to-[#0f0c1a]",
+  "ustalar-marketplace-case-study":
+    "from-[#fbe9d3] via-[#f5dcb8] to-[#eecda0] dark:from-[#3a2a12] dark:via-[#241a0c] dark:to-[#140f0a]",
 };
 
 const ICON_COLORS: Record<string, string> = {
-  "why-nextjs": "text-[#4a3d8f] dark:text-white/90",
-  "mvp-for-startups": "text-[#0d6e94] dark:text-white/90",
-  "web-design-trends-2026": "text-[#6b2e8f] dark:text-white/90",
   "face-id-attendance-case-study": "text-[#1e6b46] dark:text-white/90",
+  "eavtotalim-case-study": "text-[#4a3d8f] dark:text-white/90",
+  "ustalar-marketplace-case-study": "text-[#7a4f24] dark:text-white/90",
 };
 
 export function generateStaticParams() {

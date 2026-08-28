@@ -260,39 +260,6 @@
       "Case Study": "Case Study"
     },
     "posts": {
-      "why-nextjs": {
-        "title": "Why We Choose Next.js For Every Project",
-        "excerpt": "Server-side rendering, SEO benefits, and development speed — why Next.js became our default choice.",
-        "content": [
-          "Every time we start a new project, the first question is choosing the technology stack. Over the past three years, our answer has almost always been the same: Next.js.",
-          "The first reason is performance. Next.js's server-side rendering (SSR) and static generation (SSG) capabilities prepare pages on the server rather than in the client's browser. This significantly improves first-load speed and user experience.",
-          "The second reason is SEO. Google and other search engines prefer fully rendered HTML. Unlike client-side-only React apps, Next.js pages are served to search engines already rendered.",
-          "The third reason is development speed. File-based routing, built-in API routes, and image optimization let us focus on business logic instead of infrastructure.",
-          "Of course, not every project needs the same solution. But for web platforms, corporate sites, and SaaS products, Next.js remains our reliable choice."
-        ]
-      },
-      "mvp-for-startups": {
-        "title": "How to Build an MVP for a Startup: A Practical Guide",
-        "excerpt": "Core principles for building an MVP to reach the market quickly with limited budget and time.",
-        "content": [
-          "Many startups try to make their first product fully featured and spend months, sometimes years, on it. This is one of the biggest mistakes.",
-          "A Minimal Viable Product (MVP) is the smallest version of a product that solves the customer's core problem without extra features. The goal is to test the idea with real users as quickly as possible.",
-          "In our experience, a successful MVP usually has three stages: first, clearly defining the core user problem; second, building the smallest feature set that solves it; third, iterating quickly based on real user feedback.",
-          "Technically, choosing a stack that enables rapid development matters for an MVP. Tools like Next.js, Supabase, or Firebase significantly cut the time spent building backend infrastructure.",
-          "Most importantly, an MVP doesn't need to be perfect. It's only meant to validate whether your idea is right, quickly and cheaply."
-        ]
-      },
-      "web-design-trends-2026": {
-        "title": "Web Design Trends to Expect in 2026",
-        "excerpt": "Glassmorphism, 3D elements, and AI-powered personalized interfaces — design directions for the coming year.",
-        "content": [
-          "Web design changes faster every year, and 2026 is no exception. Here are the key trends we're seeing while designing for our clients.",
-          "The first trend is the continued evolution of Glassmorphism. Transparent, blurred background effects are now used for more than decoration — they help visually clarify interface hierarchy.",
-          "The second trend is the growing popularity of 3D and interactive elements. Thanks to tools like Framer Motion and Three.js, adding complex 3D animations has become affordable and fast even for smaller projects.",
-          "The third trend is AI-powered personalization. Sites are starting to adapt content and interface in real time based on user behavior.",
-          "Finally, speed and minimalism remain the most important factor. No matter how beautiful a site is, a slow load loses the user. That's why we always aim to balance visual appeal with technical efficiency."
-        ]
-      },
       "face-id-attendance-case-study": {
         "title": "How We Built a Face ID Attendance System for Driving Schools",
         "excerpt": "A practical look at how we replaced paper attendance logs with a biometric system that recognizes a face in 0.3 seconds, from the Intalim project.",
@@ -302,6 +269,28 @@
           "The hardest technical challenge was delivering speed and accuracy at the same time. Dozens of students needed to check in within minutes at the start of class. Through an optimized model and efficient indexing, we reached a 0.3-second recognition time with 99.9% accuracy — a delay that's practically unnoticeable in a real classroom.",
           "The second phase was making that data useful. Beyond just 'who showed up,' we linked attendance statistics, fee calculations, and exam readiness together. Directors now see real-time reporting across every branch from a single dashboard, and accountants get attendance-based billing calculated automatically.",
           "The result: over 1,000 driving schools have fully moved off paper logs, report preparation dropped from hours to seconds, and students can check their attendance percentage anytime from their own account. This project confirmed for us that sophisticated technology — biometrics, real-time sync — solves everyday problems simply and fast when it's applied the right way."
+        ]
+      },
+      "eavtotalim-case-study": {
+        "title": "EAvtoTalim: From One Mobile App to a Unified Web Ecosystem",
+        "excerpt": "A practical look at how we built the web version of Intalim for institutions that train and license drivers.",
+        "content": [
+          "After the Intalim mobile app launched successfully, we kept hearing the same request from driving school directors and instructors: \"Can we manage this fully from a computer?\" The mobile app worked great for students, but administrative work — document workflows, building class schedules, entering large batches of student data — really needed a bigger screen and a keyboard.",
+          "That's how EAvtoTalim came to be: a unified information system for institutions that train, retrain, and upgrade the qualifications of motor vehicle drivers, built as the web version of the Intalim ecosystem.",
+          "The biggest technical requirement was keeping data in real-time sync with the mobile app. If an instructor changed a class schedule in the web panel, that change needed to appear in the student's mobile app instantly. We solved this by connecting both platforms to a shared backend and REST API — one single source of truth, not two separate databases drifting apart.",
+          "The second key decision was simplifying the experience for each type of user. We built role-based panels for directors, accountants, and instructors: directors see statistics across every branch, accountants handle billing and penalties, and instructors only see their own group. This made a genuinely complex system feel simple and clear for each person using it.",
+          "Today, directors run their entire institution from any device — desktop, tablet, or phone — through EAvtoTalim. This project taught us something worth remembering: for a mobile-first product to truly succeed, its web counterpart sometimes needs just as much careful thought."
+        ]
+      },
+      "ustalar-marketplace-case-study": {
+        "title": "Ustalar: Building a Two-Sided Marketplace From Scratch",
+        "excerpt": "A practical look at how we designed a marketplace connecting skilled workers with customers.",
+        "content": [
+          "The idea behind Ustalar came from a simple observation: when people need a plumber, electrician, or builder, they usually turn to word of mouth or scroll through random ads on social media. There was no reliable single place to find a trusted professional, and professionals themselves had no steady stream of customers.",
+          "This is a classic two-sided marketplace problem: neither side can find the other because there's no trusted platform connecting them. We set out to solve it, drawing inspiration from international models like YouDo and Uzum Tezkor, but adapted to local market needs.",
+          "The most important architectural decision was building two completely different interfaces — for professionals and for customers — that share the same underlying data. A professional creates a profile listing their services, pricing, and photos of past work. A customer describes their task in a few sentences and either posts an order instantly or searches the catalog for the right match.",
+          "To build trust, we added three mechanisms: a verification process for professionals, a rating and review system from customers, and secure payment infrastructure. This lets a customer quickly answer \"can I trust this person?\", while giving professionals a clear incentive — better work means more orders.",
+          "Today, the Ustalar platform covers 50+ service categories with orders managed in real time. This project showed us the real secret to building a marketplace: it's not the technology — it's a trust mechanism that feels fair and transparent to both sides."
         ]
       }
     }

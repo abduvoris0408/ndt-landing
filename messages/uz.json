@@ -260,39 +260,6 @@
       "Case Study": "Amaliy tajriba"
     },
     "posts": {
-      "why-nextjs": {
-        "title": "Nega Biz Har Bir Loyihada Next.js Tanlaymiz",
-        "excerpt": "Server-side rendering, SEO afzalliklari va rivojlanish tezligi — Next.js nima uchun bizning standart tanlovimizga aylandi.",
-        "content": [
-          "Har safar yangi loyiha boshlaganimizda, birinchi savol texnologik stekni tanlash bo'ladi. So'nggi uch yilda bu savolga javobimiz deyarli har doim bir xil: Next.js.",
-          "Birinchi sabab — ishlash tezligi. Next.js'ning server-side rendering (SSR) va statik generatsiya (SSG) imkoniyatlari sahifalarni mijoz brauzerida emas, serverda tayyorlab yuboradi. Bu birinchi yuklanish tezligini sezilarli oshiradi va foydalanuvchi tajribasini yaxshilaydi.",
-          "Ikkinchi sabab — SEO. Google va boshqa qidiruv tizimlari to'liq render qilingan HTML'ni afzal ko'radi. Faqat client-side render qiluvchi React ilovalaridan farqli o'laroq, Next.js sahifalari qidiruv tizimlari uchun tayyor holda taqdim etiladi.",
-          "Uchinchi sabab — rivojlanish tezligi. File-based routing, o'rnatilgan API route'lar va image optimization kabi vositalar bizga infratuzilma bilan emas, biznes logikasi bilan shug'ullanish imkonini beradi.",
-          "Albatta, har bir loyiha uchun bir xil yechim to'g'ri kelavermaydi. Ammo veb-platformalar, korporativ saytlar va SaaS mahsulotlar uchun Next.js bizning ishonchli tanlovimiz bo'lib qolmoqda."
-        ]
-      },
-      "mvp-for-startups": {
-        "title": "Startap Uchun MVP Qanday Quriladi: Amaliy Qo'llanma",
-        "excerpt": "Cheklangan byudjet va vaqt bilan bozorga tez chiqish uchun MVP qurishning asosiy tamoyillari.",
-        "content": [
-          "Ko'plab startaplar birinchi mahsulotini to'liq funksional qilib qurishga harakat qiladi va oylab, ba'zan yillab vaqt sarflaydi. Bu — eng katta xatolardan biri.",
-          "Minimal Viable Product (MVP) — bu mijozning asosiy muammosini hal qiladigan, lekin ortiqcha funksiyalarsiz eng kichik mahsulot versiyasi. Maqsad — g'oyani real foydalanuvchilar bilan tezroq sinab ko'rish.",
-          "Bizning tajribamizda, muvaffaqiyatli MVP odatda 3 ta bosqichdan iborat: birinchi — asosiy foydalanuvchi muammosini aniq belgilash, ikkinchi — shu muammoni hal qiladigan eng kichik funksiya to'plamini yaratish, uchinchi — real foydalanuvchi fikr-mulohazasi asosida tezkor iteratsiya qilish.",
-          "Texnologik jihatdan, MVP uchun tezkor ishlab chiqarishga imkon beradigan stack tanlash muhim. Next.js, Supabase yoki Firebase kabi vositalar backend infratuzilmasini qurishga sarflanadigan vaqtni sezilarli qisqartiradi.",
-          "Eng muhimi — MVP mukammal bo'lishi shart emas. U faqat g'oyangizning to'g'ri yoki noto'g'riligini tez va arzon narxda tekshirish uchun mo'ljallangan."
-        ]
-      },
-      "web-design-trends-2026": {
-        "title": "2026-yilda Veb-dizaynda Kutilayotgan Trendlar",
-        "excerpt": "Glassmorphism, 3D elementlar va AI-yordamida shaxsiylashtirilgan interfeyslar — kelayotgan yil dizayn yo'nalishlari.",
-        "content": [
-          "Veb-dizayn har yili tezroq o'zgarmoqda, va 2026-yil ham bundan mustasno emas. Biz mijozlarimiz uchun loyihalashda kuzatgan asosiy tendensiyalarni ko'rib chiqamiz.",
-          "Birinchi trend — Glassmorphism uslubining yanada rivojlanishi. Shaffof, xiralashgan fon effektlari endi shunchaki bezakdan chuqurroq — ular interfeys ierarxiyasini vizual jihatdan aniqroq ko'rsatish uchun qo'llanilmoqda.",
-          "Ikkinchi trend — 3D va interaktiv elementlarning ommalashuvi. Framer Motion va Three.js kabi vositalar tufayli, hatto kichik loyihalarda ham murakkab 3D animatsiyalarni qo'shish arzon va tez bo'lib qoldi.",
-          "Uchinchi trend — AI-yordamida shaxsiylashtirish. Saytlar endi foydalanuvchi xatti-harakatiga qarab kontent va interfeysni real vaqtda moslashtira boshlaydi.",
-          "Va nihoyat, tezlik va minimalizm hamon eng muhim omil bo'lib qolmoqda. Qanchalik chiroyli bo'lmasin, sekin yuklanadigan sayt foydalanuvchini yo'qotadi. Shu sababli biz har doim vizual jozibadorlik bilan texnik samaradorlik o'rtasida muvozanat saqlashga harakat qilamiz."
-        ]
-      },
       "face-id-attendance-case-study": {
         "title": "Avtomaktablar Uchun Face ID Davomat Tizimini Qanday Qurdik",
         "excerpt": "Intalim loyihasida qog'ozdagi davomat jurnalini 0.3 soniyada ishlaydigan biometrik tizimga qanday almashtirganimiz haqida amaliy tajriba.",
@@ -302,6 +269,28 @@
           "Texnik jihatdan eng katta qiyinchilik — tezlik va aniqlikni bir vaqtda ta'minlash edi. Sinf xonasida bir necha o'nlab o'quvchi qisqa vaqt ichida ro'yxatdan o'tishi kerak edi. Optimallashtirilgan model va samarali indekslash yordamida biz 0.3 soniyalik tanish tezligiga va 99.9% aniqlikka erishdik — bu real sinf sharoitida amaliy jihatdan sezilmaydigan kechikish.",
           "Ikkinchi bosqich — bu ma'lumotni foydali qilish edi. Faqat 'kim keldi' emas, balki davomat statistikasi, jarima hisob-kitobi va imtihonga tayyorlik darajasi bir-biriga bog'landi. Direktor endi bitta paneldan barcha filiallar bo'yicha real vaqtda hisobotni ko'radi, buxgalter esa davomatga asoslangan to'lovlarni avtomatik hisoblaydi.",
           "Natija: 1000dan ortiq avtomaktab endi qog'oz jurnaldan butunlay voz kechdi, hisobot tayyorlash vaqti soatlardan soniyalarga tushdi, va o'quvchilar o'z shaxsiy kabinetida davomat foizini istalgan vaqtda ko'rishi mumkin. Bu loyiha bizga shuni ko'rsatdiki, murakkab texnologiya (biometriya, real-vaqt sinxronizatsiya) to'g'ri qo'llanilganda, kundalik muammoni sodda va tez hal qiladi."
+        ]
+      },
+      "eavtotalim-case-study": {
+        "title": "EAvtoTalim: Bitta Mobil Ilovadan Yagona Veb-Ekotizimga",
+        "excerpt": "Haydovchilarni tayyorlash va malaka oshirish muassasalari uchun Intalim'ning veb-versiyasini qanday qurganimiz haqida amaliy tajriba.",
+        "content": [
+          "Intalim mobil ilovasi muvaffaqiyatli ishga tushgandan so'ng, biz avtomaktab direktorlari va instruktorlaridan bir xil so'rovni tez-tez eshita boshladik: \"Kompyuterdan ham to'liq boshqarsak bo'ladimi?\" Mobil ilova o'quvchilar uchun qulay edi, ammo hujjat aylanmasi, dars jadvalini tuzish va ko'p sonli o'quvchi ma'lumotini kiritish kabi ma'muriy ishlar katta ekranni va klaviaturani talab qilardi.",
+          "Shunday qilib EAvtoTalim tug'ildi — avtomototransport vositalari haydovchilarini tayyorlash, qayta tayyorlash va malakasini oshirishga ixtisoslashgan ta'lim muassasalari uchun yagona axborot tizimi, Intalim ekotizimining veb-versiyasi sifatida.",
+          "Eng katta texnik talab — ma'lumotlarning mobil ilova bilan real vaqtda sinxron bo'lishi edi. Agar instruktor veb-panelda dars jadvalini o'zgartirsa, bu o'zgarish o'quvchining mobil ilovasida bir zumda ko'rinishi kerak edi. Buning uchun umumiy backend infratuzilmasi va REST API orqali ikkala platformani bitta ma'lumotlar manbaiga ulandik — alohida-alohida ma'lumotlar bazasi emas, yagona haqiqat manbai.",
+          "Ikkinchi muhim qaror — foydalanuvchi tajribasini soddalashtirish edi. Direktor, buxgalter va instruktor uchun alohida rol asosidagi panellar yaratdik: direktor barcha filiallar bo'yicha statistikani ko'radi, buxgalter to'lov va jarimalarni hisoblaydi, instruktor esa faqat o'z guruhi bilan ishlaydi. Bu murakkab tizimni har bir foydalanuvchi uchun sodda va tushunarli qildi.",
+          "Bugungi kunda EAvtoTalim orqali direktorlar istalgan qurilmadan — kompyuter, planshet yoki telefondan — muassasasini to'liq boshqaradi. Bu loyiha bizga shuni o'rgatdi: mobil-first mahsulot muvaffaqiyatli bo'lishi uchun, ba'zida uning veb-egizagi ham xuddi shunday puxta o'ylangan bo'lishi kerak."
+        ]
+      },
+      "ustalar-marketplace-case-study": {
+        "title": "Ustalar: Ikki Tomonlama Marketplace Qanday Qurildi",
+        "excerpt": "Ustalar va mijozlarni bog'laydigan marketplace platformasini noldan qanday ishlab chiqqanimiz haqida amaliy tajriba.",
+        "content": [
+          "Ustalar loyihasi g'oyasi oddiy kuzatuvdan tug'ildi: santexnik, elektrik yoki quruvchi kerak bo'lganda, odamlar ko'pincha tanish-bilishlarga murojaat qiladi yoki ijtimoiy tarmoqlardagi e'lonlar orasidan tasodifiy birini tanlaydi. Ishonchli ustani topish uchun aniq bir manzil yo'q edi, ustalar esa o'z tomonidan doimiy mijoz oqimiga ega emasdi.",
+          "Bu — klassik ikki tomonlama bozor muammosi: ikkala tomon ham bir-birini topa olmaydi, chunki ularni bog'laydigan ishonchli platforma yo'q. Biz buni YouDo va Uzum Tezkor kabi xalqaro modellardan ilhomlanib, mahalliy bozor ehtiyojlariga moslashtirilgan holda hal qilishga qaror qildik.",
+          "Arxitektura jihatidan eng muhim qaror — ikkala foydalanuvchi turi (usta va mijoz) uchun butunlay boshqacha, ammo bir xil ma'lumotlar bazasiga ulangan interfeys yaratish edi. Usta profil yaratib, xizmat turlari, narxlari va oldingi ishlarining rasmlarini yuklaydi. Mijoz esa vazifasini bir necha jumlada tasvirlab, darhol buyurtma joylashtiradi yoki katalogdan mos ustani qidiradi.",
+          "Ishonchni ta'minlash uchun uchta mexanizm qo'shdik: ustalarni tasdiqlash jarayoni, mijozlar tomonidan qoldiriladigan reyting va sharhlar tizimi, hamda xavfsiz to'lov infratuzilmasi. Bu mijozga \"bu usta ishonchlimi?\" degan savolga tezda javob topish imkonini beradi, ustaga esa yaxshi ish sifati uchun aniq mukofot (ko'proq buyurtma) taqdim etadi.",
+          "Bugungi kunda Ustalar platformasida 50dan ortiq xizmat kategoriyasi mavjud va buyurtmalar real vaqtda boshqariladi. Bu loyiha bizga marketplace qurishning asosiy sirini ko'rsatdi: texnologiya emas, balki ikkala tomon uchun ham adolatli va shaffof bo'lgan ishonch mexanizmi hal qiluvchi omil bo'ladi."
         ]
       }
     }
