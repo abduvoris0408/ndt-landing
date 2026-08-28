@@ -1,5 +1,4 @@
 import type { Metadata } from "next";
-import { Golos_Text, JetBrains_Mono } from "next/font/google";
 import { NextIntlClientProvider, hasLocale } from "next-intl";
 import { getTranslations } from "next-intl/server";
 import { notFound } from "next/navigation";
@@ -8,17 +7,6 @@ import { SITE_URL } from "@/lib/site";
 import ThemeProvider from "@/components/ThemeProvider";
 import ChatWidget from "@/components/ChatWidget";
 import "../globals.css";
-
-const golosText = Golos_Text({
-  variable: "--font-golos-text",
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700", "800", "900"],
-});
-
-const jetbrainsMono = JetBrains_Mono({
-  variable: "--font-jetbrains-mono",
-  subsets: ["latin"],
-});
 
 export function generateStaticParams() {
   return routing.locales.map((locale) => ({ locale }));
@@ -88,25 +76,17 @@ export default async function LocaleLayout({
   };
 
   return (
-    <html
-      lang={locale}
-      className={`${golosText.variable} ${jetbrainsMono.variable} h-full antialiased`}
-      suppressHydrationWarning
-    >
-      <head>
-        <script
-          type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
-        />
-      </head>
-      <body className="min-h-full flex flex-col bg-background text-foreground">
-        <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
-          <NextIntlClientProvider>
-            {children}
-            <ChatWidget />
-          </NextIntlClientProvider>
-        </ThemeProvider>
-      </body>
-    </html>
+    <>
+      <script
+        type="application/ld+json"
+        dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+      />
+      <ThemeProvider attribute="class" defaultTheme="dark" enableSystem={false}>
+        <NextIntlClientProvider>
+          {children}
+          <ChatWidget />
+        </NextIntlClientProvider>
+      </ThemeProvider>
+    </>
   );
 }
