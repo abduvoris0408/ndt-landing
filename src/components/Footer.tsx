@@ -14,7 +14,7 @@ const SOCIALS = [
   { href: "https://instagram.com", icon: FaInstagram, label: "Instagram" },
   { href: "https://facebook.com", icon: FaFacebookF, label: "Facebook" },
   { href: "https://linkedin.com", icon: FaLinkedinIn, label: "LinkedIn" },
-  { href: "https://t.me", icon: FaTelegram, label: "Telegram" },
+  { href: "https://t.me/avtointalim", icon: FaTelegram, label: "Telegram" },
   { href: "https://github.com", icon: FaGithub, label: "GitHub" },
   { href: "https://youtube.com", icon: FaYoutube, label: "YouTube" },
 ];
@@ -63,11 +63,11 @@ export default function Footer() {
               {t("contactTitle")}
             </h4>
             <div className="mt-4 flex flex-col gap-2.5 text-sm text-muted">
-              <a href="mailto:hello@nextdevteam.io" className="w-fit hover:text-foreground">
-                hello@nextdevteam.io
+              <a href="mailto:info@nextdevteam.uz" className="w-fit hover:text-foreground">
+                info@nextdevteam.uz
               </a>
-              <a href="tel:+998900000000" className="w-fit hover:text-foreground">
-                +998 90 000 00 00
+              <a href="tel:+998900994477" className="w-fit hover:text-foreground">
+                +998 90 099 44 77
               </a>
             </div>
             <div className="mt-5 flex flex-wrap items-center gap-3">

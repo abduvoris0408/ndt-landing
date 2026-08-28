@@ -4,7 +4,7 @@ import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import { FaTelegram } from "react-icons/fa";
 
-const TELEGRAM_URL = "https://t.me/nextdevteam";
+const TELEGRAM_URL = "https://t.me/avtointalim";
 
 export default function ChatWidget() {
   const t = useTranslations("chat");
