@@ -1,13 +1,18 @@
 import type { Metadata } from "next";
+import Image from "next/image";
 import { notFound } from "next/navigation";
 import { getTranslations } from "next-intl/server";
 import { getLocale } from "next-intl/server";
 import { ArrowLeft, ArrowRight, Calendar, Clock } from "lucide-react";
 import { Link } from "@/i18n/navigation";
-import { BLOG_SLUGS, BLOG_META, isBlogSlug } from "@/lib/blog";
+import { BLOG_SLUGS, BLOG_META, isBlogSlug, type BlogSlug } from "@/lib/blog";
 import { formatDate } from "@/lib/formatDate";
 import { SITE_URL } from "@/lib/site";
 import BlogIllustration from "@/components/BlogIllustration";
+
+const POST_IMAGES: Partial<Record<BlogSlug, string>> = {
+  "face-id-attendance-case-study": "/portfolio/eavtotalim.png",
+};
 
 const GRADIENTS: Record<string, string> = {
   "why-nextjs":
@@ -16,12 +21,15 @@ const GRADIENTS: Record<string, string> = {
     "from-[#d3ecf7] via-[#bfe3f3] to-[#a9d8ee] dark:from-[#0d2b3e] dark:via-[#0b2130] dark:to-[#0a0f14]",
   "web-design-trends-2026":
     "from-[#ecdff5] via-[#e2cdf0] to-[#d6b9ea] dark:from-[#2f1e3f] dark:via-[#1c1330] dark:to-[#0c0a14]",
+  "face-id-attendance-case-study":
+    "from-[#d7f5e3] via-[#c3eed6] to-[#a9e3c3] dark:from-[#0f2e1e] dark:via-[#0b2317] dark:to-[#0a140f]",
 };
 
 const ICON_COLORS: Record<string, string> = {
   "why-nextjs": "text-[#4a3d8f] dark:text-white/90",
   "mvp-for-startups": "text-[#0d6e94] dark:text-white/90",
   "web-design-trends-2026": "text-[#6b2e8f] dark:text-white/90",
+  "face-id-attendance-case-study": "text-[#1e6b46] dark:text-white/90",
 };
 
 export function generateStaticParams() {
@@ -93,11 +101,24 @@ export default async function BlogPostPage({
               {t(`posts.${slug}.title`)}
             </h1>
 
-            <div
-              className={`mt-8 flex h-56 items-center justify-center rounded-2xl bg-gradient-to-br p-10 sm:h-72 ${GRADIENTS[slug]} ${ICON_COLORS[slug]}`}
-            >
-              <BlogIllustration slug={slug} />
-            </div>
+            {POST_IMAGES[slug] ? (
+              <div className="glass relative mt-8 h-56 overflow-hidden rounded-2xl sm:h-96">
+                <Image
+                  src={POST_IMAGES[slug]!}
+                  alt={t(`posts.${slug}.title`)}
+                  fill
+                  className="object-cover object-top"
+                  sizes="(max-width: 768px) 100vw, 768px"
+                  priority
+                />
+              </div>
+            ) : (
+              <div
+                className={`mt-8 flex h-56 items-center justify-center rounded-2xl bg-gradient-to-br p-10 sm:h-72 ${GRADIENTS[slug]} ${ICON_COLORS[slug]}`}
+              >
+                <BlogIllustration slug={slug} />
+              </div>
+            )}
 
             <div className="prose-content mt-10 flex flex-col gap-5">
               {paragraphs.map((p, i) => (

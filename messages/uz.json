@@ -256,7 +256,8 @@
     "categories": {
       "Engineering": "Muhandislik",
       "Strategy": "Strategiya",
-      "Design": "Dizayn"
+      "Design": "Dizayn",
+      "Case Study": "Amaliy tajriba"
     },
     "posts": {
       "why-nextjs": {
@@ -290,6 +291,17 @@
           "Ikkinchi trend — 3D va interaktiv elementlarning ommalashuvi. Framer Motion va Three.js kabi vositalar tufayli, hatto kichik loyihalarda ham murakkab 3D animatsiyalarni qo'shish arzon va tez bo'lib qoldi.",
           "Uchinchi trend — AI-yordamida shaxsiylashtirish. Saytlar endi foydalanuvchi xatti-harakatiga qarab kontent va interfeysni real vaqtda moslashtira boshlaydi.",
           "Va nihoyat, tezlik va minimalizm hamon eng muhim omil bo'lib qolmoqda. Qanchalik chiroyli bo'lmasin, sekin yuklanadigan sayt foydalanuvchini yo'qotadi. Shu sababli biz har doim vizual jozibadorlik bilan texnik samaradorlik o'rtasida muvozanat saqlashga harakat qilamiz."
+        ]
+      },
+      "face-id-attendance-case-study": {
+        "title": "Avtomaktablar Uchun Face ID Davomat Tizimini Qanday Qurdik",
+        "excerpt": "Intalim loyihasida qog'ozdagi davomat jurnalini 0.3 soniyada ishlaydigan biometrik tizimga qanday almashtirganimiz haqida amaliy tajriba.",
+        "content": [
+          "Intalim loyihasi ustida ishlashni boshlaganimizda, avtomaktablarning eng katta muammosi aniq edi: davomat qog'ozda yuritilar, bu esa xatolarga, vaqt yo'qotishga va nazoratning yo'qligiga olib kelardi. Instruktor har bir darsda o'nlab ismni qo'lda belgilar, direktor esa oy oxirida hisobotni Excel'da soatlab tayyorlardi.",
+          "Birinchi qaror — biometrik autentifikatsiyani tanlash edi. Barmoq izi skanerlari qo'shimcha uskuna talab qilardi va gigienik jihatdan noqulay edi, shuning uchun biz kamera orqali ishlaydigan yuz tanish (Face ID) texnologiyasini tanladik — bunga faqat oddiy veb-kamera yoki smartfon kifoya edi.",
+          "Texnik jihatdan eng katta qiyinchilik — tezlik va aniqlikni bir vaqtda ta'minlash edi. Sinf xonasida bir necha o'nlab o'quvchi qisqa vaqt ichida ro'yxatdan o'tishi kerak edi. Optimallashtirilgan model va samarali indekslash yordamida biz 0.3 soniyalik tanish tezligiga va 99.9% aniqlikka erishdik — bu real sinf sharoitida amaliy jihatdan sezilmaydigan kechikish.",
+          "Ikkinchi bosqich — bu ma'lumotni foydali qilish edi. Faqat 'kim keldi' emas, balki davomat statistikasi, jarima hisob-kitobi va imtihonga tayyorlik darajasi bir-biriga bog'landi. Direktor endi bitta paneldan barcha filiallar bo'yicha real vaqtda hisobotni ko'radi, buxgalter esa davomatga asoslangan to'lovlarni avtomatik hisoblaydi.",
+          "Natija: 1000dan ortiq avtomaktab endi qog'oz jurnaldan butunlay voz kechdi, hisobot tayyorlash vaqti soatlardan soniyalarga tushdi, va o'quvchilar o'z shaxsiy kabinetida davomat foizini istalgan vaqtda ko'rishi mumkin. Bu loyiha bizga shuni ko'rsatdiki, murakkab texnologiya (biometriya, real-vaqt sinxronizatsiya) to'g'ri qo'llanilganda, kundalik muammoni sodda va tez hal qiladi."
         ]
       }
     }

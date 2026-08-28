@@ -256,7 +256,8 @@
     "categories": {
       "Engineering": "Engineering",
       "Strategy": "Strategy",
-      "Design": "Design"
+      "Design": "Design",
+      "Case Study": "Case Study"
     },
     "posts": {
       "why-nextjs": {
@@ -290,6 +291,17 @@
           "The second trend is the growing popularity of 3D and interactive elements. Thanks to tools like Framer Motion and Three.js, adding complex 3D animations has become affordable and fast even for smaller projects.",
           "The third trend is AI-powered personalization. Sites are starting to adapt content and interface in real time based on user behavior.",
           "Finally, speed and minimalism remain the most important factor. No matter how beautiful a site is, a slow load loses the user. That's why we always aim to balance visual appeal with technical efficiency."
+        ]
+      },
+      "face-id-attendance-case-study": {
+        "title": "How We Built a Face ID Attendance System for Driving Schools",
+        "excerpt": "A practical look at how we replaced paper attendance logs with a biometric system that recognizes a face in 0.3 seconds, from the Intalim project.",
+        "content": [
+          "When we started working on Intalim, the biggest pain point for driving schools was obvious: attendance was tracked on paper, which meant errors, wasted time, and no real oversight. Instructors marked dozens of names by hand every lesson, and directors spent hours compiling monthly reports in spreadsheets.",
+          "The first decision was choosing the right authentication method. Fingerprint scanners needed extra hardware and raised hygiene concerns, so we went with camera-based Face ID — all it needs is a regular webcam or a smartphone.",
+          "The hardest technical challenge was delivering speed and accuracy at the same time. Dozens of students needed to check in within minutes at the start of class. Through an optimized model and efficient indexing, we reached a 0.3-second recognition time with 99.9% accuracy — a delay that's practically unnoticeable in a real classroom.",
+          "The second phase was making that data useful. Beyond just 'who showed up,' we linked attendance statistics, fee calculations, and exam readiness together. Directors now see real-time reporting across every branch from a single dashboard, and accountants get attendance-based billing calculated automatically.",
+          "The result: over 1,000 driving schools have fully moved off paper logs, report preparation dropped from hours to seconds, and students can check their attendance percentage anytime from their own account. This project confirmed for us that sophisticated technology — biometrics, real-time sync — solves everyday problems simply and fast when it's applied the right way."
         ]
       }
     }
