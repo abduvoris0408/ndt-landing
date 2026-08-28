@@ -1,1 +1,3 @@
-export const SITE_URL = process.env.NEXT_PUBLIC_SITE_URL ?? "https://nextdevteam.uz";
+const configuredSiteUrl = process.env.NEXT_PUBLIC_SITE_URL?.trim();
+
+export const SITE_URL = configuredSiteUrl || "https://nextdevteam.uz";
