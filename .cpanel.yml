@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/host7821/repositories/ndt-landing
+    - /bin/bash -c "source /home/host7821/nodevenv/repositories/ndt-landing/24/bin/activate && cd $DEPLOYPATH && npm install --production=false && npm run build"
+    - /bin/mkdir -p $DEPLOYPATH/tmp
+    - /bin/touch $DEPLOYPATH/tmp/restart.txt
