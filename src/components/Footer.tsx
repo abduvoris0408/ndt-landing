@@ -1,22 +1,10 @@
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
-import {
-  FaInstagram,
-  FaFacebookF,
-  FaLinkedinIn,
-  FaTelegram,
-  FaGithub,
-  FaYoutube,
-} from "react-icons/fa";
+import { FaTelegram } from "react-icons/fa";
 import Logo from "./Logo";
 
 const SOCIALS = [
-  { href: "https://instagram.com", icon: FaInstagram, label: "Instagram" },
-  { href: "https://facebook.com", icon: FaFacebookF, label: "Facebook" },
-  { href: "https://linkedin.com", icon: FaLinkedinIn, label: "LinkedIn" },
   { href: "https://t.me/avtointalim", icon: FaTelegram, label: "Telegram" },
-  { href: "https://github.com", icon: FaGithub, label: "GitHub" },
-  { href: "https://youtube.com", icon: FaYoutube, label: "YouTube" },
 ];
 
 export default function Footer() {
