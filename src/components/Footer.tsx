@@ -70,11 +70,18 @@ export default function Footer() {
 								info@nextdevteam.uz
 							</a>
 							<a
-								href='tel:+998900994477'
+								href='tel:+998905856005'
 								className='w-fit hover:text-foreground'
 							>
-								+998 90 099 44 77
+								+998 90 585 60 05
 							</a>
+							<span className='max-w-55'>
+								{t('addressLine')}
+								<br />
+								{t('addressCity')}, {t('addressZip')}
+								<br />
+								{t('addressRegion')}
+							</span>
 						</div>
 
 						<h4 className='mt-6 font-mono text-xs uppercase tracking-wider text-muted'>

@@ -366,6 +366,10 @@
     "description": "We create 3D and interactive digital solutions that amaze your clients and increase your revenue.",
     "navTitle": "Navigation",
     "contactTitle": "Contact",
+    "addressLine": "apt. 26, 50 Zargarlik MFY, 12th Quarter",
+    "addressCity": "Tashkent",
+    "addressZip": "100123",
+    "addressRegion": "UZ",
     "documentsTitle": "Company Documents",
     "rights": "All rights reserved."
   },
@@ -393,7 +397,7 @@
       "website": { "label": "Website", "value": "nextdevteam.uz" },
       "privacyContact": { "label": "Privacy contact", "value": "info@nextdevteam.uz" },
       "supportContact": { "label": "Technical support", "value": "info@nextdevteam.uz" },
-      "phone": { "label": "Phone", "value": "+998 90 099 44 77" }
+      "phone": { "label": "Phone", "value": "+998 90 585 60 05" }
     },
     "sections": {
       "s1": {
@@ -453,7 +457,7 @@
       "s9": {
         "title": "10. Contact Us",
         "content": [
-          "If you have any questions about this Privacy Policy, you can reach us at: email — info@nextdevteam.uz, phone — +998 90 099 44 77, Telegram — @avtointalim."
+          "If you have any questions about this Privacy Policy, you can reach us at: email — info@nextdevteam.uz, phone — +998 90 585 60 05, Telegram — @avtointalim."
         ]
       }
     }

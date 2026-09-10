@@ -366,6 +366,10 @@
     "description": "Мы создаём 3D и интерактивные цифровые решения, которые впечатляют клиентов и увеличивают их прибыль.",
     "navTitle": "Навигация",
     "contactTitle": "Контакты",
+    "addressLine": "кв. 26, дом 50, махалля Заргарлик, 12-й квартал",
+    "addressCity": "Ташкент",
+    "addressZip": "100123",
+    "addressRegion": "UZ",
     "documentsTitle": "Документы компании",
     "rights": "Все права защищены."
   },
@@ -393,7 +397,7 @@
       "website": { "label": "Веб-сайт", "value": "nextdevteam.uz" },
       "privacyContact": { "label": "Контакт по конфиденциальности", "value": "info@nextdevteam.uz" },
       "supportContact": { "label": "Техническая поддержка", "value": "info@nextdevteam.uz" },
-      "phone": { "label": "Телефон", "value": "+998 90 099 44 77" }
+      "phone": { "label": "Телефон", "value": "+998 90 585 60 05" }
     },
     "sections": {
       "s1": {
@@ -453,7 +457,7 @@
       "s9": {
         "title": "10. Свяжитесь с нами",
         "content": [
-          "Если у вас есть вопросы по данной Политике конфиденциальности, вы можете связаться с нами: email — info@nextdevteam.uz, телефон — +998 90 099 44 77, Telegram — @avtointalim."
+          "Если у вас есть вопросы по данной Политике конфиденциальности, вы можете связаться с нами: email — info@nextdevteam.uz, телефон — +998 90 585 60 05, Telegram — @avtointalim."
         ]
       }
     }

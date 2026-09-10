@@ -366,6 +366,10 @@
     "description": "Biz mijozlarimizni hayratda qoldiradigan va daromadini oshiradigan 3D va interaktiv raqamli yechimlar yaratamiz.",
     "navTitle": "Navigatsiya",
     "contactTitle": "Aloqa",
+    "addressLine": "26-xonadon, 50-uy, Zargarlik MFY, 12-mavze",
+    "addressCity": "Toshkent",
+    "addressZip": "100123",
+    "addressRegion": "UZ",
     "documentsTitle": "Tashkilot hujjatlari",
     "rights": "Barcha huquqlar himoyalangan."
   },
@@ -393,7 +397,7 @@
       "website": { "label": "Veb-sayt", "value": "nextdevteam.uz" },
       "privacyContact": { "label": "Maxfiylik bo'yicha aloqa", "value": "info@nextdevteam.uz" },
       "supportContact": { "label": "Texnik yordam", "value": "info@nextdevteam.uz" },
-      "phone": { "label": "Telefon", "value": "+998 90 099 44 77" }
+      "phone": { "label": "Telefon", "value": "+998 90 585 60 05" }
     },
     "sections": {
       "s1": {
@@ -453,7 +457,7 @@
       "s9": {
         "title": "10. Biz bilan bog'lanish",
         "content": [
-          "Ushbu Maxfiylik siyosati yuzasidan savollaringiz bo'lsa, biz bilan quyidagi manzillar orqali bog'lanishingiz mumkin: elektron pochta — info@nextdevteam.uz, telefon — +998 90 099 44 77, Telegram — @avtointalim."
+          "Ushbu Maxfiylik siyosati yuzasidan savollaringiz bo'lsa, biz bilan quyidagi manzillar orqali bog'lanishingiz mumkin: elektron pochta — info@nextdevteam.uz, telefon — +998 90 585 60 05, Telegram — @avtointalim."
         ]
       }
     }
