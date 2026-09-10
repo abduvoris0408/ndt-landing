@@ -74,6 +74,17 @@ export default function TerminalStats() {
             </div>
 
             <motion.div
+              initial={{ opacity: 0, x: -8 }}
+              whileInView={{ opacity: 1, x: 0 }}
+              viewport={{ once: true }}
+              transition={{ duration: 0.4, delay: 0.15 + rows.length * 0.12 }}
+              className="mt-2.5 flex items-center justify-between gap-4"
+            >
+              <span className="text-muted">// {t("terminalFactLabel")}</span>
+              <span className="font-bold text-foreground">{t("terminalFactValue")}</span>
+            </motion.div>
+
+            <motion.div
               initial={{ opacity: 0 }}
               whileInView={{ opacity: 1 }}
               viewport={{ once: true }}

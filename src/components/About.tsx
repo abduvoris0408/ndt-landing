@@ -12,8 +12,8 @@ const VALUE_KEYS = ["v1", "v2", "v3", "v4"] as const;
 const ICONS = [ShieldCheck, Cpu, Handshake, Target];
 
 const DOCUMENTS = [
-  { src: "/shartnoma.jpg", altKey: "certificate.registrationAlt" },
-  { src: "/certificate.jpg", altKey: "certificate.alt" },
+  { src: "/shartnoma.jpg", key: "registration" },
+  { src: "/certificate.jpg", key: "itpark" },
 ] as const;
 
 export default function About({ standalone = false }: { standalone?: boolean }) {
@@ -77,48 +77,55 @@ export default function About({ standalone = false }: { standalone?: boolean }) 
         </div>
 
         {standalone && (
-          <motion.div
-            initial={{ opacity: 0, y: 16 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: "-80px" }}
-            transition={{ duration: 0.5 }}
-            className="glass mt-16 flex flex-col items-center gap-8 rounded-3xl p-6 sm:p-10 lg:flex-row lg:items-stretch"
-          >
-            <div className="flex w-full max-w-md shrink-0 flex-col gap-4 sm:flex-row">
-              {DOCUMENTS.map((doc) => (
-                <button
+          <div className="mt-16">
+            <span className="flex w-fit items-center gap-2 rounded-full bg-surface-2 px-3 py-1.5 text-accent-2">
+              <BadgeCheck size={14} />
+              <span className="font-mono text-xs">{t("documents.badge")}</span>
+            </span>
+
+            <div className="mt-6 grid grid-cols-1 gap-6 lg:grid-cols-2">
+              {DOCUMENTS.map((doc, i) => (
+                <motion.div
                   key={doc.src}
-                  type="button"
-                  onClick={() => setPreview({ src: doc.src, alt: t(doc.altKey) })}
-                  className="group relative aspect-1280/905 w-full overflow-hidden rounded-2xl border border-border"
+                  initial={{ opacity: 0, y: 16 }}
+                  whileInView={{ opacity: 1, y: 0 }}
+                  viewport={{ once: true, margin: "-80px" }}
+                  transition={{ duration: 0.5, delay: i * 0.1 }}
+                  className="glass flex flex-col items-center gap-6 rounded-3xl p-6 sm:flex-row sm:p-8"
                 >
-                  <Image
-                    src={doc.src}
-                    alt={t(doc.altKey)}
-                    fill
-                    className="object-contain transition-transform duration-300 group-hover:scale-105"
-                    sizes="(max-width: 1024px) 50vw, 210px"
-                  />
-                  <span className="absolute inset-0 flex items-center justify-center bg-black/0 opacity-0 transition-all group-hover:bg-black/30 group-hover:opacity-100">
-                    <Expand size={20} className="text-white" />
-                  </span>
-                </button>
+                  <button
+                    type="button"
+                    onClick={() =>
+                      setPreview({ src: doc.src, alt: t(`documents.${doc.key}.alt`) })
+                    }
+                    className="group relative aspect-1280/905 w-full max-w-56 shrink-0 overflow-hidden rounded-2xl border border-border"
+                  >
+                    <Image
+                      src={doc.src}
+                      alt={t(`documents.${doc.key}.alt`)}
+                      fill
+                      className="object-contain transition-transform duration-300 group-hover:scale-105"
+                      sizes="(max-width: 1024px) 100vw, 220px"
+                    />
+                    <span className="absolute inset-0 flex items-center justify-center bg-black/0 opacity-0 transition-all group-hover:bg-black/30 group-hover:opacity-100">
+                      <Expand size={20} className="text-white" />
+                    </span>
+                  </button>
+                  <div className="flex flex-1 flex-col justify-center text-center sm:text-left">
+                    <h3 className="text-lg font-bold tracking-tight sm:text-xl">
+                      {t(`documents.${doc.key}.title`)}
+                    </h3>
+                    <p className="mt-2 text-sm text-muted">
+                      {t(`documents.${doc.key}.description`)}
+                    </p>
+                    <p className="mt-3 font-mono text-xs text-muted">
+                      {t(`documents.${doc.key}.meta`)}
+                    </p>
+                  </div>
+                </motion.div>
               ))}
             </div>
-            <div className="flex flex-1 flex-col justify-center">
-              <span className="flex w-fit items-center gap-2 rounded-full bg-surface-2 px-3 py-1.5 text-accent-2">
-                <BadgeCheck size={14} />
-                <span className="font-mono text-xs">{t("certificate.badge")}</span>
-              </span>
-              <h3 className="mt-4 text-xl font-bold tracking-tight sm:text-2xl">
-                {t("certificate.title")}
-              </h3>
-              <p className="mt-3 max-w-lg text-sm text-muted sm:text-base">
-                {t("certificate.description")}
-              </p>
-              <p className="mt-4 font-mono text-xs text-muted">{t("certificate.meta")}</p>
-            </div>
-          </motion.div>
+          </div>
         )}
       </div>
 

@@ -46,11 +46,13 @@
     "stat1Label": "Projects Delivered",
     "stat2Value": "30+",
     "stat2Label": "Happy Clients",
-    "stat3Value": "5+",
+    "stat3Value": "6+",
     "stat3Label": "Years of Experience",
     "terminalBadge": "Results Driven_",
-    "terminalTitle": "The Numbers Speak For Themselves",
-    "terminalDescription": "Every project starts with a clear goal and a measurable outcome. Our efficiency shows in these exact numbers."
+    "terminalTitle": "About Us",
+    "terminalDescription": "\"NEXT DEVELOPERS TEAM\" LLC launched in 2020 in Tashkent. Our core focus is automating business processes, modern UI/UX design, and web and mobile development.",
+    "terminalFactLabel": "founded",
+    "terminalFactValue": "2020, Tashkent"
   },
   "services": {
     "badge": "Our Expertise_",
@@ -63,8 +65,8 @@
       "titleLine2": "A Work of Art",
       "description": "We don't just write code. We build a fast, adaptable digital ecosystem with the strongest foundation for your business.",
       "cta": "Choose Tariffs",
-      "stat1Value": "100+",
-      "stat1Label": "Successful Systems",
+      "stat1Value": "50+",
+      "stat1Label": "Systems Delivered",
       "stat2Value": "24/7",
       "stat2Label": "Technical Support"
     },
@@ -247,13 +249,20 @@
         "description": "\"NEXT DEVELOPERS TEAM\" LLC is an official resident of IT Park Uzbekistan."
       }
     },
-    "certificate": {
-      "badge": "Official Certificate_",
-      "title": "IT Park Uzbekistan Resident",
-      "description": "\"NEXT DEVELOPERS TEAM\" LLC was officially included in the unified registry of residents of the Technology Park of Software Products and Information Technologies on August 19, 2021. This status confirms that our company operates in full compliance with Uzbekistan's legislation as a certified IT company benefiting from tax incentives.",
-      "meta": "Certificate № 599 · Registered on August 19, 2021",
-      "alt": "IT Park Uzbekistan resident certificate — Next Developers Team LLC",
-      "registrationAlt": "State registration certificate of the legal entity — \"NEXT DEVELOPERS TEAM\" LLC"
+    "documents": {
+      "badge": "Official Documents_",
+      "registration": {
+        "title": "State-Registered Legal Entity",
+        "description": "\"NEXT DEVELOPERS TEAM\" LLC was officially registered as a legal entity in the Republic of Uzbekistan on May 7, 2020 (TIN: 307 346 663). The company is based in the Uchtepa district of Tashkent and operates as a limited liability company under Uzbek law.",
+        "meta": "Certificate № 6174749 · Registered on May 7, 2020",
+        "alt": "State registration certificate of the legal entity — \"NEXT DEVELOPERS TEAM\" LLC"
+      },
+      "itpark": {
+        "title": "IT Park Uzbekistan Resident",
+        "description": "\"NEXT DEVELOPERS TEAM\" LLC was officially included in the unified registry of residents of the Technology Park of Software Products and Information Technologies on August 19, 2021. This status confirms that our company operates in full compliance with Uzbekistan's legislation as a certified IT company benefiting from tax incentives.",
+        "meta": "Certificate № 599 · Registered on August 19, 2021",
+        "alt": "IT Park Uzbekistan resident certificate — Next Developers Team LLC"
+      }
     }
   },
   "cta": {
@@ -357,6 +366,7 @@
     "description": "We create 3D and interactive digital solutions that amaze your clients and increase your revenue.",
     "navTitle": "Navigation",
     "contactTitle": "Contact",
+    "documentsTitle": "Company Documents",
     "rights": "All rights reserved."
   },
   "contact": {

@@ -46,11 +46,13 @@
     "stat1Label": "Bajarilgan loyihalar",
     "stat2Value": "30+",
     "stat2Label": "Mamnun mijozlar",
-    "stat3Value": "5+",
+    "stat3Value": "6+",
     "stat3Label": "Yillik tajriba",
     "terminalBadge": "Natijalarga Asoslangan_",
-    "terminalTitle": "Raqamlar O'zi Gapiradi",
-    "terminalDescription": "Har bir loyiha aniq maqsad va o'lchanadigan natija bilan boshlanadi. Bizning ish samaradorligimiz mana shu ko'rsatkichlarda ko'rinadi."
+    "terminalTitle": "Biz Haqimizda",
+    "terminalDescription": "\"NEXT DEVELOPERS TEAM\" MCHJ 2020-yilda Toshkentda ishga tushgan. Bizning asosiy yo'nalishimiz — biznes jarayonlarini avtomatlashtirish, zamonaviy UI/UX dizayn va veb hamda mobil dasturlash.",
+    "terminalFactLabel": "founded",
+    "terminalFactValue": "2020, Toshkent"
   },
   "services": {
     "badge": "Bizning Yo'nalishlarimiz_",
@@ -63,8 +65,8 @@
       "titleLine2": "San'at Asari",
       "description": "Biz shunchaki kod yozmaymiz. Biznesingiz uchun eng mustahkam poydevorga ega tezkor va moslashuvchan raqamli ekotizim quramiz.",
       "cta": "Tariflarni Tanlash",
-      "stat1Value": "100+",
-      "stat1Label": "Muvaffaqiyatli Tizimlar",
+      "stat1Value": "50+",
+      "stat1Label": "Yetkazib Berilgan Tizimlar",
       "stat2Value": "24/7",
       "stat2Label": "Texnik Yordam"
     },
@@ -247,13 +249,20 @@
         "description": "\"NEXT DEVELOPERS TEAM\" MCHJ — IT Park Uzbekistan texnoparkining rasmiy rezidenti."
       }
     },
-    "certificate": {
-      "badge": "Rasmiy Guvohnoma_",
-      "title": "IT Park Uzbekistan Rezidenti",
-      "description": "\"NEXT DEVELOPERS TEAM\" MCHJ 2021-yil 19-avgustda Dasturiy mahsulotlar va axborot texnologiyalari texnoparki rezidentlarining yagona reestriga rasman kiritilgan. Bu maqom kompaniyamizning O'zbekiston qonunchiligiga muvofiq ishlashini va soliq imtiyozlaridan foydalanuvchi rasmiy IT kompaniya ekanligini tasdiqlaydi.",
-      "meta": "Guvohnoma № 599 · Reestrga kiritilgan sana: 2021-yil 19-avgust",
-      "alt": "IT Park Uzbekistan rezidenti guvohnomasi — Next Developers Team MCHJ",
-      "registrationAlt": "Yuridik shaxsni davlat ro'yxatidan o'tkazish to'g'risida svidetelstvo — \"NEXT DEVELOPERS TEAM\" MCHJ"
+    "documents": {
+      "badge": "Rasmiy Hujjatlar_",
+      "registration": {
+        "title": "Davlat Ro'yxatidan O'tgan Yuridik Shaxs",
+        "description": "\"NEXT DEVELOPERS TEAM\" MCHJ O'zbekiston Respublikasida 2020-yil 7-mayda rasman davlat ro'yxatidan o'tkazilgan (STIR: 307 346 663). Kompaniya Toshkent shahar, Uchtepa tumanida joylashgan va qonun asosida faoliyat yurituvchi mas'uliyati cheklangan jamiyat hisoblanadi.",
+        "meta": "Guvohnoma № 6174749 · Ro'yxatga olingan sana: 2020-yil 7-may",
+        "alt": "Yuridik shaxsni davlat ro'yxatidan o'tkazish to'g'risida svidetelstvo — \"NEXT DEVELOPERS TEAM\" MCHJ"
+      },
+      "itpark": {
+        "title": "IT Park Uzbekistan Rezidenti",
+        "description": "\"NEXT DEVELOPERS TEAM\" MCHJ 2021-yil 19-avgustda Dasturiy mahsulotlar va axborot texnologiyalari texnoparki rezidentlarining yagona reestriga rasman kiritilgan. Bu maqom kompaniyamizning O'zbekiston qonunchiligiga muvofiq ishlashini va soliq imtiyozlaridan foydalanuvchi rasmiy IT kompaniya ekanligini tasdiqlaydi.",
+        "meta": "Guvohnoma № 599 · Reestrga kiritilgan sana: 2021-yil 19-avgust",
+        "alt": "IT Park Uzbekistan rezidenti guvohnomasi — Next Developers Team MCHJ"
+      }
     }
   },
   "cta": {
@@ -357,6 +366,7 @@
     "description": "Biz mijozlarimizni hayratda qoldiradigan va daromadini oshiradigan 3D va interaktiv raqamli yechimlar yaratamiz.",
     "navTitle": "Navigatsiya",
     "contactTitle": "Aloqa",
+    "documentsTitle": "Tashkilot hujjatlari",
     "rights": "Barcha huquqlar himoyalangan."
   },
   "contact": {
