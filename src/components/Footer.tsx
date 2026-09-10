@@ -16,6 +16,7 @@ export default function Footer() {
     { href: "/portfolio", label: tNav("portfolio") },
     { href: "/about", label: tNav("about") },
     { href: "/blog", label: tNav("blog") },
+    { href: "/privacy", label: tNav("privacy") },
   ];
 
   return (
@@ -76,7 +77,10 @@ export default function Footer() {
         </div>
 
         <div className="mt-12 flex flex-col items-center justify-between gap-3 border-t border-border pt-6 text-xs text-muted sm:flex-row">
-          <span>© {new Date().getFullYear()} Next Developers Team. {t("rights")}</span>
+          <span>© {new Date().getFullYear()} &quot;NEXT DEVELOPERS TEAM&quot; MCHJ. {t("rights")}</span>
+          <Link href="/privacy" className="hover:text-foreground">
+            {tNav("privacy")}
+          </Link>
         </div>
       </div>
     </footer>

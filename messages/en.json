@@ -20,6 +20,10 @@
     "blog": {
       "title": "Blog — Technology and Design Articles",
       "description": "Expert articles on Next.js, web design trends, and building MVPs for startups."
+    },
+    "privacy": {
+      "title": "Privacy Policy",
+      "description": "The privacy policy of \"NEXT DEVELOPERS TEAM\" LLC — how we collect, use, and protect personal and client data."
     }
   },
   "nav": {
@@ -28,7 +32,8 @@
     "process": "Process",
     "about": "About Us",
     "blog": "Blog",
-    "contact": "Contact"
+    "contact": "Contact",
+    "privacy": "Privacy Policy"
   },
   "hero": {
     "badge": "Next Developers Team_",
@@ -236,7 +241,18 @@
       "v3": {
         "title": "Transparent Collaboration",
         "description": "We stay in constant contact with you at every stage of the project."
+      },
+      "v4": {
+        "title": "Officially Registered",
+        "description": "\"NEXT DEVELOPERS TEAM\" LLC is an official resident of IT Park Uzbekistan."
       }
+    },
+    "certificate": {
+      "badge": "Official Certificate_",
+      "title": "IT Park Uzbekistan Resident",
+      "description": "\"NEXT DEVELOPERS TEAM\" LLC was officially included in the unified registry of residents of the Technology Park of Software Products and Information Technologies on August 19, 2021. This status confirms that our company operates in full compliance with Uzbekistan's legislation as a certified IT company benefiting from tax incentives.",
+      "meta": "Certificate № 599 · Registered on August 19, 2021",
+      "alt": "IT Park Uzbekistan resident certificate — Next Developers Team LLC"
     }
   },
   "cta": {
@@ -350,5 +366,66 @@
     "formEmail": "Email",
     "formMessage": "Message",
     "formSubmit": "Send Message"
+  },
+  "privacy": {
+    "badge": "Privacy_",
+    "title": "Privacy Policy",
+    "intro": "\"NEXT DEVELOPERS TEAM\" LLC (hereinafter — the Company) is committed to protecting the privacy of its clients and website users to the highest standard. This Privacy Policy explains what information we collect, how we use it, and how we protect it.",
+    "updated": "Last updated: September 2026",
+    "sections": {
+      "s1": {
+        "title": "1. About the Company",
+        "content": [
+          "\"NEXT DEVELOPERS TEAM\" LLC is a software development company officially registered in the Republic of Uzbekistan and holding resident status at the Technology Park of Software Products and Information Technologies (IT Park Uzbekistan).",
+          "This website (nextdevteam.uz) and the services provided through it are operated by the Company. By using this website, you agree to the terms of this Privacy Policy."
+        ]
+      },
+      "s2": {
+        "title": "2. Information We Collect",
+        "content": [
+          "When you contact us via the contact form, Telegram, or email, we may collect information such as your name, phone number, email address, and the content of your message.",
+          "We may also automatically collect technical information (browser type, device type, IP address, page access times) through analytics services when you visit the site.",
+          "We never collect payment card details, passwords, or other special categories of personal data through this website."
+        ]
+      },
+      "s3": {
+        "title": "3. How We Use Your Information",
+        "content": [
+          "Collected information is used to: contact you about your project, prepare proposals and estimates, improve the quality of our services, and enhance the technical performance of the website.",
+          "Your information is never sold or rented to third parties for marketing or any other purposes."
+        ]
+      },
+      "s4": {
+        "title": "4. Data Storage and Protection",
+        "content": [
+          "Your personal information is retained only for as long as necessary for the purpose it was collected. We apply modern technical and organizational measures to protect your data from unauthorized access, alteration, or loss."
+        ]
+      },
+      "s5": {
+        "title": "5. Third-Party Services",
+        "content": [
+          "Our website uses third-party platforms such as Telegram for communication. Information sent through these platforms is subject to that platform's own privacy policy.",
+          "We may use anonymous analytics tools to evaluate site performance; such tools do not personally identify you."
+        ]
+      },
+      "s6": {
+        "title": "6. Cookies",
+        "content": [
+          "The site may use cookies and similar technologies to improve user experience (for example, remembering your language and theme preferences). You can disable cookies at any time through your browser settings."
+        ]
+      },
+      "s7": {
+        "title": "7. Your Rights",
+        "content": [
+          "You have the right to access, correct, or request deletion of your personal data. You may submit such a request using the contact details listed in the section below."
+        ]
+      },
+      "s8": {
+        "title": "8. Contact Us",
+        "content": [
+          "If you have any questions about this Privacy Policy, you can reach us at: email — info@nextdevteam.uz, phone — +998 90 099 44 77, Telegram — @avtointalim."
+        ]
+      }
+    }
   }
 }

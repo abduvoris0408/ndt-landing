@@ -2,11 +2,12 @@
 
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
-import { ShieldCheck, Cpu, Handshake, ArrowRight } from "lucide-react";
+import Image from "next/image";
+import { ShieldCheck, Cpu, Handshake, Target, ArrowRight, BadgeCheck } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 
-const VALUE_KEYS = ["v1", "v2", "v3"] as const;
-const ICONS = [ShieldCheck, Cpu, Handshake];
+const VALUE_KEYS = ["v1", "v2", "v3", "v4"] as const;
+const ICONS = [ShieldCheck, Cpu, Handshake, Target];
 
 export default function About({ standalone = false }: { standalone?: boolean }) {
   const t = useTranslations("about");
@@ -66,6 +67,39 @@ export default function About({ standalone = false }: { standalone?: boolean }) 
             })}
           </div>
         </div>
+
+        {standalone && (
+          <motion.div
+            initial={{ opacity: 0, y: 16 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: "-80px" }}
+            transition={{ duration: 0.5 }}
+            className="glass mt-16 flex flex-col items-center gap-8 rounded-3xl p-6 sm:p-10 lg:flex-row lg:items-stretch"
+          >
+            <div className="relative aspect-1280/905 w-full max-w-md shrink-0 overflow-hidden rounded-2xl border border-border">
+              <Image
+                src="/certificate.jpg"
+                alt={t("certificate.alt")}
+                fill
+                className="object-contain"
+                sizes="(max-width: 1024px) 100vw, 420px"
+              />
+            </div>
+            <div className="flex flex-1 flex-col justify-center">
+              <span className="flex w-fit items-center gap-2 rounded-full bg-surface-2 px-3 py-1.5 text-accent-2">
+                <BadgeCheck size={14} />
+                <span className="font-mono text-xs">{t("certificate.badge")}</span>
+              </span>
+              <h3 className="mt-4 text-xl font-bold tracking-tight sm:text-2xl">
+                {t("certificate.title")}
+              </h3>
+              <p className="mt-3 max-w-lg text-sm text-muted sm:text-base">
+                {t("certificate.description")}
+              </p>
+              <p className="mt-4 font-mono text-xs text-muted">{t("certificate.meta")}</p>
+            </div>
+          </motion.div>
+        )}
       </div>
     </section>
   );
