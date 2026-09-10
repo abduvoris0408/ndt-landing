@@ -1,15 +1,27 @@
+"use client";
+
+import { useState } from "react";
+import Image from "next/image";
 import { useTranslations } from "next-intl";
 import { Link } from "@/i18n/navigation";
 import { FaTelegram } from "react-icons/fa";
 import Logo from "./Logo";
+import DocumentPreviewModal from "./DocumentPreviewModal";
 
 const SOCIALS = [
   { href: "https://t.me/avtointalim", icon: FaTelegram, label: "Telegram" },
 ];
 
+const DOCUMENTS = [
+  { src: "/shartnoma.jpg", altKey: "certificate.registrationAlt" },
+  { src: "/certificate.jpg", altKey: "certificate.alt" },
+] as const;
+
 export default function Footer() {
   const t = useTranslations("footer");
   const tNav = useTranslations("nav");
+  const tAbout = useTranslations("about");
+  const [preview, setPreview] = useState<{ src: string; alt: string } | null>(null);
 
   const links = [
     { href: "/services", label: tNav("services") },
@@ -73,6 +85,26 @@ export default function Footer() {
                 </a>
               ))}
             </div>
+
+            <div className="mt-5 flex items-center gap-3">
+              {DOCUMENTS.map((doc) => (
+                <button
+                  key={doc.src}
+                  type="button"
+                  onClick={() => setPreview({ src: doc.src, alt: tAbout(doc.altKey) })}
+                  aria-label={tAbout(doc.altKey)}
+                  className="glass relative h-14 w-10 shrink-0 overflow-hidden rounded-md transition-opacity hover:opacity-80"
+                >
+                  <Image
+                    src={doc.src}
+                    alt={tAbout(doc.altKey)}
+                    fill
+                    className="object-cover"
+                    sizes="40px"
+                  />
+                </button>
+              ))}
+            </div>
           </div>
         </div>
 
@@ -83,6 +115,14 @@ export default function Footer() {
           </Link>
         </div>
       </div>
+
+      {preview && (
+        <DocumentPreviewModal
+          src={preview.src}
+          alt={preview.alt}
+          onClose={() => setPreview(null)}
+        />
+      )}
     </footer>
   );
 }

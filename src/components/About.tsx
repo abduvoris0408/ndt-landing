@@ -1,17 +1,25 @@
 "use client";
 
+import { useState } from "react";
 import { useTranslations } from "next-intl";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { ShieldCheck, Cpu, Handshake, Target, ArrowRight, BadgeCheck } from "lucide-react";
+import { ShieldCheck, Cpu, Handshake, Target, ArrowRight, BadgeCheck, Expand } from "lucide-react";
 import { Link } from "@/i18n/navigation";
+import DocumentPreviewModal from "./DocumentPreviewModal";
 
 const VALUE_KEYS = ["v1", "v2", "v3", "v4"] as const;
 const ICONS = [ShieldCheck, Cpu, Handshake, Target];
 
+const DOCUMENTS = [
+  { src: "/shartnoma.jpg", altKey: "certificate.registrationAlt" },
+  { src: "/certificate.jpg", altKey: "certificate.alt" },
+] as const;
+
 export default function About({ standalone = false }: { standalone?: boolean }) {
   const t = useTranslations("about");
   const tNav = useTranslations("nav");
+  const [preview, setPreview] = useState<{ src: string; alt: string } | null>(null);
 
   return (
     <section id="about" className="relative py-24 sm:py-32">
@@ -76,14 +84,26 @@ export default function About({ standalone = false }: { standalone?: boolean }) 
             transition={{ duration: 0.5 }}
             className="glass mt-16 flex flex-col items-center gap-8 rounded-3xl p-6 sm:p-10 lg:flex-row lg:items-stretch"
           >
-            <div className="relative aspect-1280/905 w-full max-w-md shrink-0 overflow-hidden rounded-2xl border border-border">
-              <Image
-                src="/certificate.jpg"
-                alt={t("certificate.alt")}
-                fill
-                className="object-contain"
-                sizes="(max-width: 1024px) 100vw, 420px"
-              />
+            <div className="flex w-full max-w-md shrink-0 flex-col gap-4 sm:flex-row">
+              {DOCUMENTS.map((doc) => (
+                <button
+                  key={doc.src}
+                  type="button"
+                  onClick={() => setPreview({ src: doc.src, alt: t(doc.altKey) })}
+                  className="group relative aspect-1280/905 w-full overflow-hidden rounded-2xl border border-border"
+                >
+                  <Image
+                    src={doc.src}
+                    alt={t(doc.altKey)}
+                    fill
+                    className="object-contain transition-transform duration-300 group-hover:scale-105"
+                    sizes="(max-width: 1024px) 50vw, 210px"
+                  />
+                  <span className="absolute inset-0 flex items-center justify-center bg-black/0 opacity-0 transition-all group-hover:bg-black/30 group-hover:opacity-100">
+                    <Expand size={20} className="text-white" />
+                  </span>
+                </button>
+              ))}
             </div>
             <div className="flex flex-1 flex-col justify-center">
               <span className="flex w-fit items-center gap-2 rounded-full bg-surface-2 px-3 py-1.5 text-accent-2">
@@ -101,6 +121,14 @@ export default function About({ standalone = false }: { standalone?: boolean }) 
           </motion.div>
         )}
       </div>
+
+      {preview && (
+        <DocumentPreviewModal
+          src={preview.src}
+          alt={preview.alt}
+          onClose={() => setPreview(null)}
+        />
+      )}
     </section>
   );
 }
