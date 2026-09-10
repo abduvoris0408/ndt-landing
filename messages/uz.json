@@ -371,57 +371,76 @@
     "badge": "Maxfiylik_",
     "title": "Maxfiylik Siyosati",
     "intro": "\"NEXT DEVELOPERS TEAM\" MCHJ (bundan buyon — Kompaniya) mijozlari va sayt foydalanuvchilarining shaxsiy ma'lumotlari maxfiyligini yuqori darajada himoya qilishga sodiqdir. Ushbu Maxfiylik siyosati biz qanday ma'lumot to'plashimiz, ulardan qanday foydalanishimiz va ularni qanday himoya qilishimizni tushuntiradi.",
-    "updated": "Oxirgi yangilanish: 2026-yil sentabr",
+    "updated": "Oxirgi yangilanish: 2026-yil 13-sentabr",
+    "devInfo": {
+      "title": "1. Kompaniya ma'lumotlari",
+      "developer": { "label": "Ishlab chiquvchi", "value": "\"NEXT DEVELOPERS TEAM\" MCHJ" },
+      "product": { "label": "Xizmat", "value": "nextdevteam.uz — korporativ sayt" },
+      "country": { "label": "Mamlakat", "value": "O'zbekiston Respublikasi" },
+      "address": { "label": "Manzil", "value": "Toshkent shahar, Uchtepa tumani, Zargarlik MFY, 12-mavze, 50-uy, 26-xonadon" },
+      "status": { "label": "Maqom", "value": "IT Park Uzbekistan rezidenti (Guvohnoma № 599)" },
+      "website": { "label": "Veb-sayt", "value": "nextdevteam.uz" },
+      "privacyContact": { "label": "Maxfiylik bo'yicha aloqa", "value": "info@nextdevteam.uz" },
+      "supportContact": { "label": "Texnik yordam", "value": "info@nextdevteam.uz" },
+      "phone": { "label": "Telefon", "value": "+998 90 099 44 77" }
+    },
     "sections": {
       "s1": {
-        "title": "1. Kompaniya haqida",
+        "title": "2. Ushbu siyosat nimani qamrab oladi",
         "content": [
-          "\"NEXT DEVELOPERS TEAM\" MCHJ — O'zbekiston Respublikasida rasman ro'yxatdan o'tgan va Dasturiy mahsulotlar va axborot texnologiyalari texnoparki (IT Park Uzbekistan) rezidenti maqomiga ega dasturiy ta'minot ishlab chiqish kompaniyasi.",
-          "Ushbu sayt (nextdevteam.uz) va u orqali ko'rsatiladigan xizmatlar Kompaniya tomonidan boshqariladi. Saytdan foydalanish orqali siz ushbu Maxfiylik siyosati shartlariga rozilik bildirasiz."
+          "\"NEXT DEVELOPERS TEAM\" MCHJ (bundan buyon — Kompaniya) O'zbekiston Respublikasida rasman ro'yxatdan o'tgan va Dasturiy mahsulotlar va axborot texnologiyalari texnoparki (IT Park Uzbekistan) rezidenti maqomiga ega dasturiy ta'minot ishlab chiqish kompaniyasi.",
+          "Ushbu Maxfiylik siyosati nextdevteam.uz saytiga tashrif buyuruvchilar, shuningdek Kompaniyaning veb-sayt, mobil ilova, AI bot va boshqa dasturiy mahsulotlarni ishlab chiqish xizmatlaridan foydalanuvchi mijozlarga tegishlidir. Saytdan yoki xizmatlarimizdan foydalanish orqali siz ushbu siyosat shartlariga rozilik bildirasiz."
         ]
       },
       "s2": {
-        "title": "2. Qanday ma'lumotlarni to'playmiz",
+        "title": "3. Qanday ma'lumotlarni to'playmiz",
         "content": [
-          "Siz biz bilan bog'lanish formasi, Telegram yoki elektron pochta orqali murojaat qilganingizda quyidagi ma'lumotlarni to'plashimiz mumkin: ism-familiya, telefon raqami, elektron pochta manzili va xabaringiz matni.",
-          "Shuningdek, saytga tashrif buyurganingizda texnik ma'lumotlar (brauzer turi, qurilma turi, IP-manzil, sahifalarga kirish vaqti) avtomatik tarzda analitika xizmatlari orqali yig'ilishi mumkin.",
+          "3.1. Aloqa va identifikatsiya ma'lumotlari. Siz biz bilan bog'lanish formasi, Telegram yoki elektron pochta orqali murojaat qilganingizda quyidagilarni to'plashimiz mumkin: ism-familiya, telefon raqami, elektron pochta manzili, kompaniya nomi (agar mavjud bo'lsa) va xabaringiz matni.",
+          "3.2. Loyiha ma'lumotlari. Xizmat buyurtma qilganingizda loyiha talablari, texnik topshiriq, byudjet doirasi va muloqot jarayonida taqdim etilgan boshqa materiallarni saqlashimiz mumkin.",
+          "3.3. Texnik ma'lumotlar. Saytga tashrif buyurganingizda brauzer turi, qurilma turi, IP-manzil va sahifalarga kirish vaqti kabi ma'lumotlar avtomatik tarzda analitika xizmatlari orqali yig'ilishi mumkin.",
           "Biz hech qachon to'lov kartasi ma'lumotlari, parollar yoki boshqa maxsus toifadagi shaxsiy ma'lumotlarni ushbu sayt orqali to'plamaymiz."
         ]
       },
       "s3": {
-        "title": "3. Ma'lumotlardan qanday foydalanamiz",
+        "title": "4. Ma'lumotlardan qanday foydalanamiz",
         "content": [
-          "To'plangan ma'lumotlar quyidagi maqsadlarda ishlatiladi: siz bilan loyiha bo'yicha bog'lanish, taklif va smeta tayyorlash, xizmatlarimiz sifatini oshirish, hamda saytning texnik ishlashini yaxshilash.",
+          "To'plangan ma'lumotlar quyidagi maqsadlarda ishlatiladi: siz bilan loyiha bo'yicha bog'lanish, taklif va smeta tayyorlash, buyurtma qilingan dasturiy mahsulotni ishlab chiqish va qo'llab-quvvatlash, xizmatlarimiz sifatini oshirish, hamda saytning texnik ishlashini yaxshilash.",
           "Sizning ma'lumotlaringiz marketing yoki boshqa maqsadlarda uchinchi shaxslarga sotilmaydi yoki ijaraga berilmaydi."
         ]
       },
       "s4": {
-        "title": "4. Ma'lumotlarni saqlash va himoya qilish",
+        "title": "5. Ma'lumotlarni saqlash va himoya qilish",
         "content": [
           "Shaxsiy ma'lumotlaringiz faqat ular to'plangan maqsad uchun zarur bo'lgan muddat davomida saqlanadi. Biz ma'lumotlaringizni ruxsatsiz kirish, o'zgartirish yoki yo'qotishdan himoya qilish uchun zamonaviy texnik va tashkiliy choralarni qo'llaymiz."
         ]
       },
       "s5": {
-        "title": "5. Uchinchi tomon xizmatlari",
+        "title": "6. Uchinchi tomon xizmatlari",
         "content": [
           "Saytimiz aloqa uchun Telegram kabi uchinchi tomon platformalaridan foydalanadi. Ushbu platformalar orqali yuborilgan ma'lumotlarga nisbatan tegishli platformaning o'z maxfiylik siyosati qo'llaniladi.",
           "Sayt ishlashini tahlil qilish uchun anonim statistik vositalardan foydalanishimiz mumkin; bunday vositalar sizni shaxsan aniqlamaydi."
         ]
       },
       "s6": {
-        "title": "6. Cookie fayllari",
+        "title": "7. Cookie fayllari",
         "content": [
           "Sayt foydalanuvchi tajribasini yaxshilash (masalan, til va mavzu sozlamalarini eslab qolish) uchun cookie va shunga o'xshash texnologiyalardan foydalanishi mumkin. Siz brauzer sozlamalari orqali cookie fayllarni istalgan vaqtda o'chirib qo'yishingiz mumkin."
         ]
       },
       "s7": {
-        "title": "7. Sizning huquqlaringiz",
+        "title": "8. Sizning huquqlaringiz",
         "content": [
           "Siz o'zingiz haqingizdagi ma'lumotlarga kirish, ularni tuzatish yoki o'chirishni so'rash huquqiga egasiz. Bunday so'rov bilan quyidagi bo'limda ko'rsatilgan aloqa ma'lumotlari orqali murojaat qilishingiz mumkin."
         ]
       },
       "s8": {
-        "title": "8. Biz bilan bog'lanish",
+        "title": "9. Siyosatga o'zgartirishlar",
+        "content": [
+          "Ushbu Maxfiylik siyosati vaqti-vaqti bilan yangilanishi mumkin. O'zgarishlar ushbu sahifada e'lon qilinadi va \"Oxirgi yangilanish\" sanasi tegishlicha yangilanadi."
+        ]
+      },
+      "s9": {
+        "title": "10. Biz bilan bog'lanish",
         "content": [
           "Ushbu Maxfiylik siyosati yuzasidan savollaringiz bo'lsa, biz bilan quyidagi manzillar orqali bog'lanishingiz mumkin: elektron pochta — info@nextdevteam.uz, telefon — +998 90 099 44 77, Telegram — @avtointalim."
         ]

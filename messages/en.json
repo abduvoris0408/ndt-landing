@@ -371,57 +371,76 @@
     "badge": "Privacy_",
     "title": "Privacy Policy",
     "intro": "\"NEXT DEVELOPERS TEAM\" LLC (hereinafter — the Company) is committed to protecting the privacy of its clients and website users to the highest standard. This Privacy Policy explains what information we collect, how we use it, and how we protect it.",
-    "updated": "Last updated: September 2026",
+    "updated": "Last updated: September 13, 2026",
+    "devInfo": {
+      "title": "1. Company Information",
+      "developer": { "label": "Developer", "value": "\"NEXT DEVELOPERS TEAM\" LLC" },
+      "product": { "label": "Service", "value": "nextdevteam.uz — corporate website" },
+      "country": { "label": "Country", "value": "Republic of Uzbekistan" },
+      "address": { "label": "Address", "value": "Tashkent city, Uchtepa district, Zargarlik MFY, 12th block, House 50, Apartment 26" },
+      "status": { "label": "Status", "value": "IT Park Uzbekistan resident (Certificate № 599)" },
+      "website": { "label": "Website", "value": "nextdevteam.uz" },
+      "privacyContact": { "label": "Privacy contact", "value": "info@nextdevteam.uz" },
+      "supportContact": { "label": "Technical support", "value": "info@nextdevteam.uz" },
+      "phone": { "label": "Phone", "value": "+998 90 099 44 77" }
+    },
     "sections": {
       "s1": {
-        "title": "1. About the Company",
+        "title": "2. Scope of This Policy",
         "content": [
-          "\"NEXT DEVELOPERS TEAM\" LLC is a software development company officially registered in the Republic of Uzbekistan and holding resident status at the Technology Park of Software Products and Information Technologies (IT Park Uzbekistan).",
-          "This website (nextdevteam.uz) and the services provided through it are operated by the Company. By using this website, you agree to the terms of this Privacy Policy."
+          "\"NEXT DEVELOPERS TEAM\" LLC (hereinafter — the Company) is a software development company officially registered in the Republic of Uzbekistan and holding resident status at the Technology Park of Software Products and Information Technologies (IT Park Uzbekistan).",
+          "This Privacy Policy applies to visitors of nextdevteam.uz as well as clients who use the Company's website, mobile app, AI bot, and other software development services. By using this website or our services, you agree to the terms of this policy."
         ]
       },
       "s2": {
-        "title": "2. Information We Collect",
+        "title": "3. Information We Collect",
         "content": [
-          "When you contact us via the contact form, Telegram, or email, we may collect information such as your name, phone number, email address, and the content of your message.",
-          "We may also automatically collect technical information (browser type, device type, IP address, page access times) through analytics services when you visit the site.",
+          "3.1. Contact and identity information. When you contact us via the contact form, Telegram, or email, we may collect your full name, phone number, email address, company name (if applicable), and the content of your message.",
+          "3.2. Project information. When you request a service, we may store project requirements, technical specifications, budget scope, and other materials shared during our discussions.",
+          "3.3. Technical information. When you visit the site, technical information (browser type, device type, IP address, page access times) may be automatically collected through analytics services.",
           "We never collect payment card details, passwords, or other special categories of personal data through this website."
         ]
       },
       "s3": {
-        "title": "3. How We Use Your Information",
+        "title": "4. How We Use Your Information",
         "content": [
-          "Collected information is used to: contact you about your project, prepare proposals and estimates, improve the quality of our services, and enhance the technical performance of the website.",
+          "Collected information is used to: contact you about your project, prepare proposals and estimates, build and support the software product you commissioned, improve the quality of our services, and enhance the technical performance of the website.",
           "Your information is never sold or rented to third parties for marketing or any other purposes."
         ]
       },
       "s4": {
-        "title": "4. Data Storage and Protection",
+        "title": "5. Data Storage and Protection",
         "content": [
           "Your personal information is retained only for as long as necessary for the purpose it was collected. We apply modern technical and organizational measures to protect your data from unauthorized access, alteration, or loss."
         ]
       },
       "s5": {
-        "title": "5. Third-Party Services",
+        "title": "6. Third-Party Services",
         "content": [
           "Our website uses third-party platforms such as Telegram for communication. Information sent through these platforms is subject to that platform's own privacy policy.",
           "We may use anonymous analytics tools to evaluate site performance; such tools do not personally identify you."
         ]
       },
       "s6": {
-        "title": "6. Cookies",
+        "title": "7. Cookies",
         "content": [
           "The site may use cookies and similar technologies to improve user experience (for example, remembering your language and theme preferences). You can disable cookies at any time through your browser settings."
         ]
       },
       "s7": {
-        "title": "7. Your Rights",
+        "title": "8. Your Rights",
         "content": [
           "You have the right to access, correct, or request deletion of your personal data. You may submit such a request using the contact details listed in the section below."
         ]
       },
       "s8": {
-        "title": "8. Contact Us",
+        "title": "9. Changes to This Policy",
+        "content": [
+          "This Privacy Policy may be updated from time to time. Any changes will be posted on this page, and the \"Last updated\" date will be revised accordingly."
+        ]
+      },
+      "s9": {
+        "title": "10. Contact Us",
         "content": [
           "If you have any questions about this Privacy Policy, you can reach us at: email — info@nextdevteam.uz, phone — +998 90 099 44 77, Telegram — @avtointalim."
         ]
